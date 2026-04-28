@@ -1,13 +1,12 @@
 {
-  "name": "Ruslana Pidsadiuk Author Site",
+  "name": "ruslana_pidsadiuk_author_site",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "export": "next export"
+    "lint": "eslint"
   },
   "dependencies": {
     "embla-carousel-react": "^8.6.0",
