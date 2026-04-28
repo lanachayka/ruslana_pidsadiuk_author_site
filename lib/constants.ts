@@ -295,7 +295,7 @@ export const worlds = [
   {
     title: "Contemporary",
     subtitle: "emotional fiction",
-     image: "/moodboards/I_see_you.jpg",
+     image: "/moodboards/i_see_you.jpg",
   },
   {
     title: "Mythology",
@@ -320,7 +320,7 @@ export const storyImages = [
   "/moodboards/queen_of_archers.jpg",
   "/moodboards/the_kings_path.jpg",
   "/moodboards/legacy.jpg",
-  "/moodboards/I_see_you.jpg",
+  "/moodboards/i_see_you.jpg",
   "/moodboards/the_most_precious_gift.jpg",
   "/moodboards/doubt.jpg",
   "/moodboards/passion.jpg",
