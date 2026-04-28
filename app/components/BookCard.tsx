@@ -27,7 +27,13 @@ export default function BookCard({
       onClick={() => router.push(`/books/${id}`)}
       className="cursor-pointer w-full max-w-sm rounded-md bg-[#E8EFE0]/60 backdrop-blur-sm border border-[#8FA087]/30 shadow-[0_10px_30px_rgba(0,0,0,0.08)] p-6 flex flex-col items-center space-y-3"
     >
-      <Image width={150} height={100} src={imageUrl} alt={title} />
+      <Image
+        width={150}
+        height={100}
+        src={imageUrl}
+        alt={title}
+        loading="eager"
+      />
       <h3 className="text-lg font-bold">{title}</h3>
       {subtitle && <p className="text-center">{subtitle}</p>}
       <div onClick={(e) => e.stopPropagation()}>

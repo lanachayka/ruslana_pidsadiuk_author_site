@@ -36,6 +36,7 @@ export default function HomePage() {
                 width={300}
                 src={image}
                 alt=""
+                priority={index < 2}
                 className="h-full w-full object-cover transition duration-500 hover:scale-105"
               />
             </div>
@@ -71,7 +72,7 @@ export default function HomePage() {
           </div>
 
           <div className="grid grid-cols-2 gap-4">
-            {worlds.map((world) => (
+            {worlds.map((world, index) => (
               <div
                 key={world.title}
                 className="relative h-48 overflow-hidden rounded-xl"
@@ -81,6 +82,7 @@ export default function HomePage() {
                   width={300}
                   src={world.image}
                   alt={world.title}
+                  priority={index < 2}
                   className="h-full w-full object-cover"
                 />
                 <div className="absolute inset-0 bg-black/20" />

@@ -29,6 +29,7 @@ export default async function BookPage({
                 height={200}
                 src={book.imageUrl}
                 alt={book.title}
+                priority
               />
               <LinkButton href={book.amazonUrl} className="w-50">
                 Read on Amazon
@@ -60,11 +61,14 @@ export default async function BookPage({
               height={300}
               className="rounded-md"
               alt={`${book.title} moodboard`}
+              priority
             />
           </div>
           <Divider size="large" />
           <PageSubtitle subtitle="The Beginning" />
-          <p className="text-center leading-loose whitespace-pre-wrap">{book.firstPage}</p>
+          <p className="text-center leading-loose whitespace-pre-wrap">
+            {book.firstPage}
+          </p>
           <Divider size="large" />
           <PageSubtitle subtitle="Characters" />
           <Carousel>
@@ -94,7 +98,7 @@ export default async function BookPage({
               </Carousel>
             </>
           )}
-           {book.forces && (
+          {book.forces && (
             <>
               <Divider size="large" />
               <PageSubtitle subtitle="Gods Forces" />
