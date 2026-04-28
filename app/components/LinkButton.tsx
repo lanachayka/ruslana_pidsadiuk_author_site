@@ -4,10 +4,12 @@ export default function LinkButton({
   children,
   href,
   className,
+  isTarget = true,
 }: Readonly<{
   children: React.ReactNode;
   href: string;
   className?: string;
+  isTarget?: boolean;
 }>): React.JSX.Element {
   return (
     <Link
@@ -25,8 +27,8 @@ export default function LinkButton({
       active:scale-[0.97]
       ${className || ""}
       `}
-      target="_blank"
-      rel="noopener noreferrer"
+      target={isTarget ? "_blank" : undefined}
+      rel={isTarget ? "noopener noreferrer" : undefined}
     >
       {children}
     </Link>

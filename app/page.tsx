@@ -15,7 +15,7 @@ export default function HomePage() {
             <br />
             What do I create? Worlds you can feel.
           </p>
-          <LinkButton className="mt-20 h-15 w-60 text-xl" href="/books">
+          <LinkButton isTarget={false} className="mt-20 h-15 w-60 text-xl" href="/books">
             EXPLORE MY BOOKS
           </LinkButton>
         </div>
@@ -137,7 +137,7 @@ export default function HomePage() {
             If something here feels like a match,
             <br />I gently invite you into my worlds.
           </p>
-          <LinkButton className="mt-10" href="/books">
+          <LinkButton isTarget={false} className="mt-10" href="/books">
             ENTER MY WORLDS
           </LinkButton>
         </div>
