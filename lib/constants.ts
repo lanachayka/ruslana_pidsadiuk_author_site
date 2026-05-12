@@ -24,12 +24,6 @@ export const SocialMediaLinks = [
     iconSrc: "/social_media/TikTokIcon.svg",
   },
   {
-    id: "facebook",
-    name: "Facebook",
-    url: "https://www.facebook.com/share/1DjmV8qkGA/?mibextid=wwXIfr",
-    iconSrc: "/social_media/FacebookIcon.svg",
-  },
-  {
     id: "pinterest",
     name: "Pinterest",
     url: "https://www.pinterest.com/ruslana_pidsadiuk/",
