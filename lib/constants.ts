@@ -278,6 +278,32 @@ export const Books = [
       { name: "Ben", img: "/characters/Ben.png" },
     ],
   },
+  {
+    id: "before_the_eyes_of_eternity",
+    title: "Before the Eyes of Eternity",
+    subtitle: "Part of: Before the Eyes Series",
+    imageUrl: "/covers/before_the_eyes_of_eternity.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0H26RCQGK",
+    blurb:
+      "This is a story about eternity. \n About the long and winding road that walks beside it. \n About the choices we make, and the moments that leave their marks on us forever. \n About love, loss, power, freedom, and the quiet weight of memory. \n About learning to accept both yourself and the people who change your life. \n It follows a woman who lived through centuries, crossed entire eras beside others, and still managed to remain herself. \n A story about the fear of eternity. \n And about the quiet realization that came after all the pain, all the years, and all the goodbyes — that even before the eyes of eternity, everything is still in our hands.",
+    quotes:["“Amid eternity and solitude wandered one soul, through the silence of centuries, through being and nonbeing, between the human and that which time holds no power over — one single soul of its kind, to whom this story is dedicated…”",
+      "“Even before the eyes of eternity — everything remains in our hands.”",
+      "“Desire disappears as quickly and painlessly as it comes. But love — it always leaves traces.”",
+      "“What a strange thing love is, how deeply it is intertwined with pain. If it has a beginning, then it must also have an end. Then what is eternal, if not love…”",
+      "“That night, I made a new rule for myself: never to take freedom away from others.”",
+      "“What is true does not always need to be immediately visible — it is enough for it to be felt.”",
+      "“Fear is a marvelous motivation, both for action and for inaction.”",
+      "“How the very same words could mean entirely opposite things to those who heard them.”",
+      "“That was what both of us knew how to do best — keep moving forward, no matter what.”",
+    ],
+    feelsImgUrl: "/moodboards/eternity.jpg",
+    firstPage: "The first deep breath. Barely warm air. The scent of hot sand, fresh water, and dry plants. \n The first glance around. Quick. Evaluating. Uncomprehending. Curious. \n Yellow sands, tall solitary palms, yellowed grass, a small body of water surrounded by reeds. A dark sky strewn with bright stars, and the moon — vast, powerful, full, and unreachable. \n The sounds of crickets and frogs, the barely perceptible rustle of the wind, the hum of the scorched earth. \n And me amid this world. \n Feeling, observing, growing accustomed, trying to understand — and eventually to live within it.",
+    characters: [
+      { name: "Lunari", img: "/characters/Lunari.png" },
+      { name: "Mirati", img: "/characters/Mirati.png" },
+      { name: "Frederick", img: "/characters/Frederick.png" },
+    ],
+  },
 ];
 
 export const worlds = [
