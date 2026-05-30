@@ -345,4 +345,5 @@ export const storyImages = [
   "/moodboards/the_most_precious_gift.jpg",
   "/moodboards/doubt.jpg",
   "/moodboards/passion.jpg",
+  "/moodboards/eternity.jpg",
 ];
