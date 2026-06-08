@@ -18,17 +18,23 @@ export const SocialMediaLinks = [
     iconSrc: "/social_media/ThreadsIcon.svg",
   },
   {
+    id: "instagram",
+    name: "Instagram",
+    url: "https://www.instagram.com/ruslana.pidsadiuk/",
+    iconSrc: "/social_media/InstagramIcon.svg",
+  },
+  {
     id: "tiktok",
     name: "TikTok",
     url: "https://www.tiktok.com/@ruslana_pidsadiuk",
     iconSrc: "/social_media/TikTokIcon.svg",
   },
-  {
-    id: "pinterest",
-    name: "Pinterest",
-    url: "https://www.pinterest.com/ruslana_pidsadiuk/",
-    iconSrc: "/social_media/PinterestIcon.svg",
-  },
+  // {
+  //   id: "pinterest",
+  //   name: "Pinterest",
+  //   url: "https://www.pinterest.com/ruslana_pidsadiuk/",
+  //   iconSrc: "/social_media/PinterestIcon.svg",
+  // },
   {
     id: "youtube",
     name: "YouTube",
