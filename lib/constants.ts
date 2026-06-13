@@ -311,6 +311,31 @@ export const Books = [
       { name: "Frederick", img: "/characters/Frederick.png" },
     ],
   },
+  {
+    id: "before_the_eyes_of_memories",
+    title: "Before the Eyes of Memories",
+    subtitle: "The Final Book of the Before the Eyes Series",
+    imageUrl: "/covers/before_the_eyes_of_memories.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0H517G6HH",
+    blurb:
+      "This is more than the final story of the series. \n It is its final note. A chance to say goodbye. \n After that, only memories remain. \n Memories that are comforting and painful, gentle and unsettling, joyful and heartbreaking. Yet no matter what they are, they are worth holding on to. \n Worth cherishing. \n Worth carrying with us long after the story ends.",
+    quotes:["“Dedicated to those we cannot allow ourselves to forget”",
+      "“From that moment on, I stopped searching for answers, stopped trying to fix everything, stopped believing I had power over everything.”",
+      "“Everything flows. Everything comes to an end. And everything returns to its beginning.”",
+      "“I had always thought she would be mine. Thought she had been mine. Mine forever. But she had never belonged to me.”",
+      "“I had buried many people throughout my life. I had endured loss more than once. But it is impossible to grow used to it. Impossible to learn how to endure it differently. It hurts every time. And every time — as if it were the first.”",
+      "“She was the best decision I had ever made. My gift from fate. My greatest sin and, at the same time, my greatest happiness.”",
+      "“Everything leaves its mark. Everything affects us. Everything changes us.”",
+    ],
+    feelsImgUrl: "/moodboards/eternity.jpg",
+    firstPage: "Peace. Calm. Routine. Strange concepts. When they appear in our lives, it becomes clear at once that they will not remain for long. That change is waiting somewhere beyond your threshold. Waiting, watching, holding you in suspense, never allowing you to fully enjoy the fleeting, simple, and quiet happiness of sameness. \n That is the essence of it. Nothing is eternal except change. And no matter how we prepare for it, no matter how we wait for it — we will always be unprepared.",
+    characters: [
+      { name: "Lunari", img: "/characters/Lunari.png" },
+      { name: "Ben", img: "/characters/Ben.png" },
+      { name: "Dominic", img: "/characters/Dominic.png" },
+      { name: "Frederick", img: "/characters/Frederick.png" },
+    ],
+  },
 ];
 
 export const worlds = [
