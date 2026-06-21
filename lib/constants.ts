@@ -59,7 +59,8 @@ export const Books = [
       "“Reveka and Heinrich both possessed gentle strength — a power that effortlessly won the hearts of their people.”",
     ],
     feelsImgUrl: "/moodboards/queen_of_archers.jpg",
-    firstPage: "In an instant, everything sharpened — the morning forest, the air, her gaze — and the hunting instinct awakened. The bow became a continuation of her body, of her stance; her movements — precise, steady, impossibly swift. Hunting a wild beast, she merged with the forest, guided by instinct, always venturing alone into the depths of the tangled, ancient trees. There, her breath grew barely perceptible, her body — supple as a predator’s, her eyes — piercing. It was not a hunt for a young princess’s amusement — it was a dance of life and death, a dance of beginning and end.",
+    firstPage:
+      "In an instant, everything sharpened — the morning forest, the air, her gaze — and the hunting instinct awakened. The bow became a continuation of her body, of her stance; her movements — precise, steady, impossibly swift. Hunting a wild beast, she merged with the forest, guided by instinct, always venturing alone into the depths of the tangled, ancient trees. There, her breath grew barely perceptible, her body — supple as a predator’s, her eyes — piercing. It was not a hunt for a young princess’s amusement — it was a dance of life and death, a dance of beginning and end.",
     characters: [
       { name: "Heinrich & Reveka", img: "/characters/HeinrichAndReveka.png" },
       { name: "Reveka", img: "/characters/Reveka.png" },
@@ -105,7 +106,8 @@ export const Books = [
       "“We must fight for the sake of those who are still alive…do not destroy yourself”",
     ],
     feelsImgUrl: "/moodboards/the_kings_path.jpg",
-    firstPage: "A difficult choice between the sea and the mountains, between the heart and duty, between passion and reason. \n Queen Enora of Rowendar stood on the highest tower of the castle, gazing into the distance. From one window, the snowy ridges of Orleim unfolded; from the other — the wild, unrestrained Northern Sea. She walked between these windows, trying to choose the course of her fate — to act both rightly and honestly. \n But it was impossible. Reason urged her not to act foolishly and to live as the law demanded — beside her husband, Garvey, who until recently had been a prince of Orleim. Yet her heart belonged to the young knight from Marenburd — Johan.",
+    firstPage:
+      "A difficult choice between the sea and the mountains, between the heart and duty, between passion and reason. \n Queen Enora of Rowendar stood on the highest tower of the castle, gazing into the distance. From one window, the snowy ridges of Orleim unfolded; from the other — the wild, unrestrained Northern Sea. She walked between these windows, trying to choose the course of her fate — to act both rightly and honestly. \n But it was impossible. Reason urged her not to act foolishly and to live as the law demanded — beside her husband, Garvey, who until recently had been a prince of Orleim. Yet her heart belonged to the young knight from Marenburd — Johan.",
     characters: [
       { name: "Heinrich", img: "/characters/Henry.png" },
       { name: "Rosamund", img: "/characters/Rosamund.png" },
@@ -149,12 +151,13 @@ export const Books = [
       "“Voices echoed in his mind: righteous thoughts mingled with cruel ones, anger struggled against mercy.”",
     ],
     feelsImgUrl: "/moodboards/legacy.jpg",
-    firstPage: "The four stood holding hands, for the moment of parting had come. The moment was sad and happy at once. Aren recalled his mother’s words: “You will be even better…” and his father’s: “But you must be strong, care for one another…”. At the thought of these memories, his hands trembled of their own accord, and his heart tightened. He and his sister were setting out for Rowendar, while the brothers remained in Marenburd. Such was their father’s will, so it had been decided long ago, and so it was right — yet for some reason it did not feel so.",
+    firstPage:
+      "The four stood holding hands, for the moment of parting had come. The moment was sad and happy at once. Aren recalled his mother’s words: “You will be even better…” and his father’s: “But you must be strong, care for one another…”. At the thought of these memories, his hands trembled of their own accord, and his heart tightened. He and his sister were setting out for Rowendar, while the brothers remained in Marenburd. Such was their father’s will, so it had been decided long ago, and so it was right — yet for some reason it did not feel so.",
     characters: [
-    { name: "Aren", img: "/characters/Aren.png" },
-    { name: "Lyra", img: "/characters/Lyra.png" },
-    { name: "Loren", img: "/characters/Loren.png" },
-    { name: "Rowen", img: "/characters/Rowen.png" },
+      { name: "Aren", img: "/characters/Aren.png" },
+      { name: "Lyra", img: "/characters/Lyra.png" },
+      { name: "Loren", img: "/characters/Loren.png" },
+      { name: "Rowen", img: "/characters/Rowen.png" },
     ],
     kingdoms: [
       {
@@ -193,7 +196,8 @@ export const Books = [
       "“I follow only one religion — the truth.”",
     ],
     feelsImgUrl: "/moodboards/i_see_you.jpg",
-    firstPage: "I am here to tell my story. One you will probably not believe — and I don’t care. \n Is my life interesting? No. Ordinary. \n Is it better than yours? Maybe. Or maybe — even worse. \n Have I succeeded? In some ways, yes. In others, no. Nothing special. \n So why am I telling this, and why should you read it? A fair question. Well, my answer is simple — I am not chasing uniqueness, fame, awards or applause. \n I follow only one religion — the truth.",
+    firstPage:
+      "I am here to tell my story. One you will probably not believe — and I don’t care. \n Is my life interesting? No. Ordinary. \n Is it better than yours? Maybe. Or maybe — even worse. \n Have I succeeded? In some ways, yes. In others, no. Nothing special. \n So why am I telling this, and why should you read it? A fair question. Well, my answer is simple — I am not chasing uniqueness, fame, awards or applause. \n I follow only one religion — the truth.",
     characters: [
       { name: "Kira", img: "/characters/Kira.png" },
       { name: "Claude", img: "/characters/Claude.png" },
@@ -217,7 +221,8 @@ export const Books = [
       "“The bounds of time grow blurred in a life too long…”",
     ],
     feelsImgUrl: "/moodboards/the_most_precious_gift.jpg",
-    firstPage: "Within the depths of our Mother Earth there was — it lived, it smoldered, it heaved, it swelled with heat — a vast egg. Its warmth wrapped the whole earth. And with each day its strength and its greatness increased. \n It pulsed, it trembled, it shuddered. It set all around it in motion, it turned over, it spun, it leapt. And it seemed that at any moment it would break everything apart. \n An irresistible force ripened within it. Terrible, vast, mighty, unthinkable, unseen, unheard, firstborn, ruinous, life-giving, divine. \n It was the beginning, and it was the end. \n It was the summit, and it was the depth. \n It was the first, and it was the last.",
+    firstPage:
+      "Within the depths of our Mother Earth there was — it lived, it smoldered, it heaved, it swelled with heat — a vast egg. Its warmth wrapped the whole earth. And with each day its strength and its greatness increased. \n It pulsed, it trembled, it shuddered. It set all around it in motion, it turned over, it spun, it leapt. And it seemed that at any moment it would break everything apart. \n An irresistible force ripened within it. Terrible, vast, mighty, unthinkable, unseen, unheard, firstborn, ruinous, life-giving, divine. \n It was the beginning, and it was the end. \n It was the summit, and it was the depth. \n It was the first, and it was the last.",
     characters: [
       { name: "Aliria", img: "/characters/Aliria.png" },
       { name: "Ignimons", img: "/characters/Ignimons.png" },
@@ -255,7 +260,8 @@ export const Books = [
       "“I knew that this moment of weakness would allow me to go on — tomorrow, the day after, and on all the days that would follow.”",
     ],
     feelsImgUrl: "/moodboards/doubt.jpg",
-    firstPage: "Who are changelings? You hardly hear that word anymore in polite conversation. Unless it appears in frightening tales told to disobedient children. \n “Keep behaving like that,” she said, “and you will end up among the changelings.” \n “Oh, I should have left you… I truly should have.” \n It does not sound particularly reassuring. But whether it is effective is another question. \n The phenomenon is fading with its time. And perhaps that is for the better. \n Whole generations grew up in baskets left on the thresholds of God’s houses. There were many reasons for such a decision, and each was different. Lack of money, troubled families, an unwanted pregnancy at a young age, the exposure of betrayal, the anger of their elders, the death of parents, unpreparedness for responsibility, fear, disabilities and disease, the hope for a better life. And even the belief that everything is God’s will.",
+    firstPage:
+      "Who are changelings? You hardly hear that word anymore in polite conversation. Unless it appears in frightening tales told to disobedient children. \n “Keep behaving like that,” she said, “and you will end up among the changelings.” \n “Oh, I should have left you… I truly should have.” \n It does not sound particularly reassuring. But whether it is effective is another question. \n The phenomenon is fading with its time. And perhaps that is for the better. \n Whole generations grew up in baskets left on the thresholds of God’s houses. There were many reasons for such a decision, and each was different. Lack of money, troubled families, an unwanted pregnancy at a young age, the exposure of betrayal, the anger of their elders, the death of parents, unpreparedness for responsibility, fear, disabilities and disease, the hope for a better life. And even the belief that everything is God’s will.",
     characters: [
       { name: "Lunari", img: "/characters/Lunari.png" },
       { name: "Dominic", img: "/characters/Dominic.png" },
@@ -279,7 +285,8 @@ export const Books = [
       "“For the first time in a long while, I was not merely listened to — I was heard. Not merely looked at — but truly seen.”",
     ],
     feelsImgUrl: "/moodboards/passion.jpg",
-    firstPage: "Marauder. Shameless man. Disgrace of the family. \n The one who did not live up to expectations — expectations that were born before him. \n The only son and the greatest disappointment. The one who disgraces the family and brings the line to an end. \n And this list could go on endlessly. \n And yes, all of this is about me. \n What have I done to deserve this? And did I deserve it at all?",
+    firstPage:
+      "Marauder. Shameless man. Disgrace of the family. \n The one who did not live up to expectations — expectations that were born before him. \n The only son and the greatest disappointment. The one who disgraces the family and brings the line to an end. \n And this list could go on endlessly. \n And yes, all of this is about me. \n What have I done to deserve this? And did I deserve it at all?",
     characters: [
       { name: "Lunari", img: "/characters/Lunari.png" },
       { name: "Ben", img: "/characters/Ben.png" },
@@ -293,7 +300,8 @@ export const Books = [
     amazonUrl: "https://www.amazon.com/dp/B0H26RCQGK",
     blurb:
       "This is a story about eternity. \n About the long and winding road that walks beside it. \n About the choices we make, and the moments that leave their marks on us forever. \n About love, loss, power, freedom, and the quiet weight of memory. \n About learning to accept both yourself and the people who change your life. \n It follows a woman who lived through centuries, crossed entire eras beside others, and still managed to remain herself. \n A story about the fear of eternity. \n And about the quiet realization that came after all the pain, all the years, and all the goodbyes — that even before the eyes of eternity, everything is still in our hands.",
-    quotes:["“Amid eternity and solitude wandered one soul, through the silence of centuries, through being and nonbeing, between the human and that which time holds no power over — one single soul of its kind, to whom this story is dedicated…”",
+    quotes: [
+      "“Amid eternity and solitude wandered one soul, through the silence of centuries, through being and nonbeing, between the human and that which time holds no power over — one single soul of its kind, to whom this story is dedicated…”",
       "“Even before the eyes of eternity — everything remains in our hands.”",
       "“Desire disappears as quickly and painlessly as it comes. But love — it always leaves traces.”",
       "“What a strange thing love is, how deeply it is intertwined with pain. If it has a beginning, then it must also have an end. Then what is eternal, if not love…”",
@@ -304,7 +312,8 @@ export const Books = [
       "“That was what both of us knew how to do best — keep moving forward, no matter what.”",
     ],
     feelsImgUrl: "/moodboards/eternity.jpg",
-    firstPage: "The first deep breath. Barely warm air. The scent of hot sand, fresh water, and dry plants. \n The first glance around. Quick. Evaluating. Uncomprehending. Curious. \n Yellow sands, tall solitary palms, yellowed grass, a small body of water surrounded by reeds. A dark sky strewn with bright stars, and the moon — vast, powerful, full, and unreachable. \n The sounds of crickets and frogs, the barely perceptible rustle of the wind, the hum of the scorched earth. \n And me amid this world. \n Feeling, observing, growing accustomed, trying to understand — and eventually to live within it.",
+    firstPage:
+      "The first deep breath. Barely warm air. The scent of hot sand, fresh water, and dry plants. \n The first glance around. Quick. Evaluating. Uncomprehending. Curious. \n Yellow sands, tall solitary palms, yellowed grass, a small body of water surrounded by reeds. A dark sky strewn with bright stars, and the moon — vast, powerful, full, and unreachable. \n The sounds of crickets and frogs, the barely perceptible rustle of the wind, the hum of the scorched earth. \n And me amid this world. \n Feeling, observing, growing accustomed, trying to understand — and eventually to live within it.",
     characters: [
       { name: "Lunari", img: "/characters/Lunari.png" },
       { name: "Mirati", img: "/characters/Mirati.png" },
@@ -319,7 +328,8 @@ export const Books = [
     amazonUrl: "https://www.amazon.com/dp/B0H517G6HH",
     blurb:
       "This is more than the final story of the series. \n It is its final note. A chance to say goodbye. \n After that, only memories remain. \n Memories that are comforting and painful, gentle and unsettling, joyful and heartbreaking. Yet no matter what they are, they are worth holding on to. \n Worth cherishing. \n Worth carrying with us long after the story ends.",
-    quotes:["“Dedicated to those we cannot allow ourselves to forget”",
+    quotes: [
+      "“Dedicated to those we cannot allow ourselves to forget”",
       "“From that moment on, I stopped searching for answers, stopped trying to fix everything, stopped believing I had power over everything.”",
       "“Everything flows. Everything comes to an end. And everything returns to its beginning.”",
       "“I had always thought she would be mine. Thought she had been mine. Mine forever. But she had never belonged to me.”",
@@ -328,12 +338,33 @@ export const Books = [
       "“Everything leaves its mark. Everything affects us. Everything changes us.”",
     ],
     feelsImgUrl: "/moodboards/eternity.jpg",
-    firstPage: "Peace. Calm. Routine. Strange concepts. When they appear in our lives, it becomes clear at once that they will not remain for long. That change is waiting somewhere beyond your threshold. Waiting, watching, holding you in suspense, never allowing you to fully enjoy the fleeting, simple, and quiet happiness of sameness. \n That is the essence of it. Nothing is eternal except change. And no matter how we prepare for it, no matter how we wait for it — we will always be unprepared.",
+    firstPage:
+      "Peace. Calm. Routine. Strange concepts. When they appear in our lives, it becomes clear at once that they will not remain for long. That change is waiting somewhere beyond your threshold. Waiting, watching, holding you in suspense, never allowing you to fully enjoy the fleeting, simple, and quiet happiness of sameness. \n That is the essence of it. Nothing is eternal except change. And no matter how we prepare for it, no matter how we wait for it — we will always be unprepared.",
     characters: [
       { name: "Lunari", img: "/characters/Lunari.png" },
       { name: "Ben", img: "/characters/Ben.png" },
       { name: "Dominic", img: "/characters/Dominic.png" },
       { name: "Frederick", img: "/characters/Frederick.png" },
+    ],
+  },
+  {
+    id: "no_ones",
+    title: "No One's",
+    subtitle: "Ukranian Folk Romance",
+    imageUrl: "/covers/no_ones.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0H1JMJHLJ",
+    blurb:
+      "Near a dense forest stands a lonely house. It is home to Marfa — a healer, a midwife, and a stubborn woman who has spent her entire life believing that she belongs to no one. \n But fate has a habit of telling its own stories. \n One day, among the forest paths, Marfa finds a wounded stranger. A man who has lost his home, his past, and a part of himself. A man who has become nobody. \n Thus begins the story of two people who were never looking for love. A story of trust, care, and finding a home where they least expected it. \n Filled with Ukrainian folklore, folk beliefs, forest legends, traditions, and the rhythms of rural life, No One's is a warm and comforting story about two stubborn souls who crossed paths and, once they did, could no longer let go.",
+    quotes: [
+      "“She was no one's, he had become nobody, yet what lay between them was more than nothing”",
+      "“No one's and the man who had become nobody. Two people who found each other. And could no longer let go.”",
+    ],
+    feelsImgUrl: "/moodboards/no_ones.jpg",
+    firstPage:
+      "Early autumn is a beautiful time of year. Especially in the forest. The trees turn golden, dressed in their finest. Flocks of birds cross the sky in neat formations. No one teaches them how, yet they know. More importantly, they know where they are going. Rain comes and goes now and then. After a long, scorching summer, rain is welcome. Mushrooms scent the air, pushing their way out of the ground. They are not there one day when you walk past, and the next, there they are. The grass grows dry. It grows less and rustles more. \n Around the houses, there is more work to be done. The harvest must be gathered in, preparations made for winter, everything put in order. Everything has its place. Our folk do not tolerate disorder. And rightly so. Idleness has never done anyone any good. And honest work has never ruined anyone.",
+    characters: [
+      { name: "Marfa", img: "/characters/Marfa.png" },
+      { name: "Nestor", img: "/characters/Nestor.png" },
     ],
   },
 ];
@@ -347,7 +378,7 @@ export const worlds = [
   {
     title: "Contemporary",
     subtitle: "emotional fiction",
-     image: "/moodboards/i_see_you.jpg",
+    image: "/moodboards/i_see_you.jpg",
   },
   {
     title: "Mythology",
