@@ -61,6 +61,7 @@ export default function HomePage() {
               <li>— contemporary</li>
               <li>— mythology</li>
               <li>— gothic (1560–1860)</li>
+              <li>— Ukrainian folklore</li>
             </ul>
 
             <Link

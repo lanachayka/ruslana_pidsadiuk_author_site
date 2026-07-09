@@ -12,6 +12,12 @@ export const SocialMediaLinks = [
     iconSrc: "/social_media/goodreads.png",
   },
   {
+    id: "substack",
+    name: "Substack",
+    url: "https://substack.com/@ruslanapidsadiuk",
+    iconSrc: "/social_media/SubstackIcon.svg",
+  },
+  {
     id: "threads",
     name: "Threads",
     url: "https://www.threads.com/lanachayka",
@@ -29,12 +35,12 @@ export const SocialMediaLinks = [
     url: "https://www.tiktok.com/@ruslana_pidsadiuk",
     iconSrc: "/social_media/TikTokIcon.svg",
   },
-  // {
-  //   id: "pinterest",
-  //   name: "Pinterest",
-  //   url: "https://www.pinterest.com/ruslana_pidsadiuk/",
-  //   iconSrc: "/social_media/PinterestIcon.svg",
-  // },
+   {
+    id: "pinterest",
+    name: "Pinterest",
+    url: "https://pin.it/5apqM43Nz",
+    iconSrc: "/social_media/PinterestIcon.svg",
+  },
   {
     id: "youtube",
     name: "YouTube",
@@ -390,6 +396,11 @@ export const worlds = [
     subtitle: "1560–1860",
     image: "/moodboards/gothic.jpg",
   },
+   {
+    title: "Ukranian Folklore",
+    subtitle: "slow-burn romance",
+    image: "/moodboards/no_ones.jpg",
+  },
 ];
 
 export const readerCards = [
@@ -408,4 +419,5 @@ export const storyImages = [
   "/moodboards/doubt.jpg",
   "/moodboards/passion.jpg",
   "/moodboards/eternity.jpg",
+  "/moodboards/no_ones.jpg",
 ];
