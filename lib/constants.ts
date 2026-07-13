@@ -35,7 +35,7 @@ export const SocialMediaLinks = [
     url: "https://www.tiktok.com/@ruslana_pidsadiuk",
     iconSrc: "/social_media/TikTokIcon.svg",
   },
-   {
+  {
     id: "pinterest",
     name: "Pinterest",
     url: "https://pin.it/5apqM43Nz",
@@ -186,6 +186,28 @@ export const Books = [
         title: "Orleim — where the mountains stand and war never ends.",
         imageUrl: "/kingdoms/Orleim.jpg",
       },
+    ],
+  },
+  {
+    id: "new_land",
+    title: "New Land",
+    subtitle: "A standalone companion novel to The Northern Sea Legacy series",
+    imageUrl: "/covers/new_land.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0GX32LFBG",
+    blurb:
+      "What awaited Rowen in the New Land? \n What did he learn? \n What did he see? \n Who did he meet? \n What did he discover about himself? \n And how did he become a discovery for others? \n This story holds the answers.",
+    quotes: [
+      "“You made your choice, no road remains to flee, accept it now and carry it with thee.”",
+      "“The rains will pass, and the heat will return. Then it will all begin again. Everything passes. This will pass too.”",
+      "“About how she felt when she was with him. \n Safe. Calm. Supported. \n She wanted more. She wanted to be with him. \n Not to run away. Not to hide. Quite the opposite. \n To stay close to him. To be near him. To be with him.”",
+      "“You chose him once. Now accept all of him.”",
+    ],
+    feelsImgUrl: "/moodboards/new_land.jpg",
+    firstPage:
+      "The sun stood high in the sky, and the fine white sand beneath his feet was unbearably hot. But Goi's feet had long since grown used to it. Calm and unhurried, he made his way toward the water to check the nets he had set out earlier that morning. White-and-gray birds with large beaks wandered along the shore. Like Goi, they roamed the shore in search of food. \n He carefully checked the nets, stepping into the cool water. Small, brightly colored fish swam past his legs, too tiny to be caught in the nets. They were not edible anyway. Everything bright and beautiful from afar served as a warning to keep one's distance. More often than not, vivid colors were a sign that a creature or plant was either dangerous or poisonous. \n Goi's attention was drawn to a small monkey that had wandered unusually close to the water. That was strange, as they had never been fond of saltwater and rarely ventured this near the ocean. He decided it must have found something far more interesting than its fear of the sea. \n Goi moved closer and saw that the monkey was playing with a person's hair. Yet he had never seen anyone like this before. A man as white as milk, with hair the color of sunlight, lay on the wet sand dressed in strange clothes. He was thin, much smaller than anyone Goi had ever seen before. He had a straight, narrow nose and thin lips. He could not make out the color of the stranger's eyes, for they were closed.",
+    characters: [
+      { name: "Rowen", img: "/characters/Rowen.png" },
+      { name: "Zea", img: "/characters/Zea.png" },
     ],
   },
   {
@@ -396,7 +418,7 @@ export const worlds = [
     subtitle: "1560–1860",
     image: "/moodboards/gothic.jpg",
   },
-   {
+  {
     title: "Ukranian Folklore",
     subtitle: "slow-burn romance",
     image: "/moodboards/no_ones.jpg",
@@ -414,6 +436,7 @@ export const storyImages = [
   "/moodboards/queen_of_archers.jpg",
   "/moodboards/the_kings_path.jpg",
   "/moodboards/legacy.jpg",
+  "/moodboards/new_land.jpg",
   "/moodboards/i_see_you.jpg",
   "/moodboards/the_most_precious_gift.jpg",
   "/moodboards/doubt.jpg",
