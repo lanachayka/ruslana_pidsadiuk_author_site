@@ -433,14 +433,15 @@ export const readerCards = [
 ];
 
 export const storyImages = [
-  "/moodboards/queen_of_archers.jpg",
-  "/moodboards/the_kings_path.jpg",
-  "/moodboards/legacy.jpg",
-  "/moodboards/new_land.jpg",
-  "/moodboards/i_see_you.jpg",
-  "/moodboards/the_most_precious_gift.jpg",
-  "/moodboards/doubt.jpg",
-  "/moodboards/passion.jpg",
-  "/moodboards/eternity.jpg",
-  "/moodboards/no_ones.jpg",
+  {id: "queen_of_archers", imageUrl: "/moodboards/queen_of_archers.jpg"},
+  {id: "the_kings_path", imageUrl: "/moodboards/the_kings_path.jpg"},
+  {id: "legacy_of_the_northern_sea", imageUrl: "/moodboards/legacy.jpg"},
+  {id: "new_land", imageUrl: "/moodboards/new_land.jpg"},
+  {id: "i_see_you", imageUrl: "/moodboards/i_see_you.jpg"},
+  {id: "the_most_precious_gift", imageUrl: "/moodboards/the_most_precious_gift.jpg"},
+  {id: "before_the_eyes_of_doubt", imageUrl: "/moodboards/doubt.jpg"},
+  {id: "before_the_eyes_of_passion", imageUrl: "/moodboards/passion.jpg"},
+  {id: "before_the_eyes_of_eternity", imageUrl: "/moodboards/eternity.jpg"},
+  {id: "before_the_eyes_of_memories", imageUrl: "/moodboards/memories.jpg"},
+  {id: "no_ones", imageUrl: "/moodboards/no_ones.jpg"},
 ];

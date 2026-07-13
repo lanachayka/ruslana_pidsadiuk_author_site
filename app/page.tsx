@@ -2,6 +2,7 @@ import { readerCards, storyImages, worlds } from "@/lib/constants";
 import Image from "next/image";
 import Link from "next/link";
 import LinkButton from "./components/LinkButton";
+import StoryCard from "./components/StoryCard";
 
 export default function HomePage() {
   return (
@@ -15,7 +16,11 @@ export default function HomePage() {
             <br />
             What do I create? Worlds you can feel.
           </p>
-          <LinkButton isTarget={false} className="mt-20 h-15 w-60 text-xl" href="/books">
+          <LinkButton
+            isTarget={false}
+            className="mt-20 h-15 w-60 text-xl"
+            href="/books"
+          >
             EXPLORE MY BOOKS
           </LinkButton>
         </div>
@@ -27,19 +32,7 @@ export default function HomePage() {
 
         <div className="flex gap-4 overflow-x-auto pb-4">
           {storyImages.map((image, index) => (
-            <div
-              key={index}
-              className="h-72 min-w-[240px] overflow-hidden rounded-xl shadow-md"
-            >
-              <Image
-                height={300}
-                width={300}
-                src={image}
-                alt=""
-                priority={index < 2}
-                className="h-full w-full object-cover transition duration-500 hover:scale-105"
-              />
-            </div>
+            <StoryCard key={image.id} {...image} index={index} />
           ))}
         </div>
       </section>
