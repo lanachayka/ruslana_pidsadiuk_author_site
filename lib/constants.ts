@@ -49,6 +49,34 @@ export const SocialMediaLinks = [
   },
 ];
 
+export const Kingdoms = [
+  {
+    id: "map",
+    title: "The Map of the Northern Sea Legacy Series",
+    imageUrl: "/kingdoms/Map.png",
+  },
+  {
+    id: "Marenburd",
+    title: "Marenburd — a world of sea, stone and legacy.",
+    imageUrl: "/kingdoms/Marenburd.jpg",
+  },
+  {
+    id: "Avelis",
+    title: "Avelis — a place that feels like home.",
+    imageUrl: "/kingdoms/Avelis.jpg",
+  },
+  {
+    id: "Rowendar",
+    title: "Rowendar — where wealth and war walk side by side.",
+    imageUrl: "/kingdoms/Rowendar.jpg",
+  },
+  {
+    id: "Orleim",
+    title: "Orleim — where the mountains stand and war never ends.",
+    imageUrl: "/kingdoms/Orleim.jpg",
+  },
+];
+
 export const Books = [
   {
     id: "queen_of_archers",
@@ -73,28 +101,7 @@ export const Books = [
       { name: "Heinrich", img: "/characters/Henry.png" },
       { name: "Rosamund", img: "/characters/Rosamund.png" },
     ],
-    kingdoms: [
-      {
-        id: "Marenburd",
-        title: "Marenburd — a world of sea, stone and legacy.",
-        imageUrl: "/kingdoms/Marenburd.jpg",
-      },
-      {
-        id: "Avelis",
-        title: "Avelis — a place that feels like home.",
-        imageUrl: "/kingdoms/Avelis.jpg",
-      },
-      {
-        id: "Rowendar",
-        title: "Rowendar — where wealth and war walk side by side.",
-        imageUrl: "/kingdoms/Rowendar.jpg",
-      },
-      {
-        id: "Orleim",
-        title: "Orleim — where the mountains stand and war never ends.",
-        imageUrl: "/kingdoms/Orleim.jpg",
-      },
-    ],
+    kingdoms: Kingdoms,
   },
   {
     id: "the_kings_path",
@@ -118,28 +125,7 @@ export const Books = [
       { name: "Heinrich", img: "/characters/Henry.png" },
       { name: "Rosamund", img: "/characters/Rosamund.png" },
     ],
-    kingdoms: [
-      {
-        id: "Marenburd",
-        title: "Marenburd — a world of sea, stone and legacy.",
-        imageUrl: "/kingdoms/Marenburd.jpg",
-      },
-      {
-        id: "Avelis",
-        title: "Avelis — a place that feels like home.",
-        imageUrl: "/kingdoms/Avelis.jpg",
-      },
-      {
-        id: "Rowendar",
-        title: "Rowendar — where wealth and war walk side by side.",
-        imageUrl: "/kingdoms/Rowendar.jpg",
-      },
-      {
-        id: "Orleim",
-        title: "Orleim — where the mountains stand and war never ends.",
-        imageUrl: "/kingdoms/Orleim.jpg",
-      },
-    ],
+    kingdoms: Kingdoms,
   },
   {
     id: "legacy_of_the_northern_sea",
@@ -165,28 +151,7 @@ export const Books = [
       { name: "Loren", img: "/characters/Loren.png" },
       { name: "Rowen", img: "/characters/Rowen.png" },
     ],
-    kingdoms: [
-      {
-        id: "Marenburd",
-        title: "Marenburd — a world of sea, stone and legacy.",
-        imageUrl: "/kingdoms/Marenburd.jpg",
-      },
-      {
-        id: "Avelis",
-        title: "Avelis — a place that feels like home.",
-        imageUrl: "/kingdoms/Avelis.jpg",
-      },
-      {
-        id: "Rowendar",
-        title: "Rowendar — where wealth and war walk side by side.",
-        imageUrl: "/kingdoms/Rowendar.jpg",
-      },
-      {
-        id: "Orleim",
-        title: "Orleim — where the mountains stand and war never ends.",
-        imageUrl: "/kingdoms/Orleim.jpg",
-      },
-    ],
+    kingdoms: Kingdoms,
   },
   {
     id: "new_land",
@@ -433,15 +398,18 @@ export const readerCards = [
 ];
 
 export const storyImages = [
-  {id: "queen_of_archers", imageUrl: "/moodboards/queen_of_archers.jpg"},
-  {id: "the_kings_path", imageUrl: "/moodboards/the_kings_path.jpg"},
-  {id: "legacy_of_the_northern_sea", imageUrl: "/moodboards/legacy.jpg"},
-  {id: "new_land", imageUrl: "/moodboards/new_land.jpg"},
-  {id: "i_see_you", imageUrl: "/moodboards/i_see_you.jpg"},
-  {id: "the_most_precious_gift", imageUrl: "/moodboards/the_most_precious_gift.jpg"},
-  {id: "before_the_eyes_of_doubt", imageUrl: "/moodboards/doubt.jpg"},
-  {id: "before_the_eyes_of_passion", imageUrl: "/moodboards/passion.jpg"},
-  {id: "before_the_eyes_of_eternity", imageUrl: "/moodboards/eternity.jpg"},
-  {id: "before_the_eyes_of_memories", imageUrl: "/moodboards/memories.jpg"},
-  {id: "no_ones", imageUrl: "/moodboards/no_ones.jpg"},
+  { id: "queen_of_archers", imageUrl: "/moodboards/queen_of_archers.jpg" },
+  { id: "the_kings_path", imageUrl: "/moodboards/the_kings_path.jpg" },
+  { id: "legacy_of_the_northern_sea", imageUrl: "/moodboards/legacy.jpg" },
+  { id: "new_land", imageUrl: "/moodboards/new_land.jpg" },
+  { id: "i_see_you", imageUrl: "/moodboards/i_see_you.jpg" },
+  {
+    id: "the_most_precious_gift",
+    imageUrl: "/moodboards/the_most_precious_gift.jpg",
+  },
+  { id: "before_the_eyes_of_doubt", imageUrl: "/moodboards/doubt.jpg" },
+  { id: "before_the_eyes_of_passion", imageUrl: "/moodboards/passion.jpg" },
+  { id: "before_the_eyes_of_eternity", imageUrl: "/moodboards/eternity.jpg" },
+  { id: "before_the_eyes_of_memories", imageUrl: "/moodboards/memories.jpg" },
+  { id: "no_ones", imageUrl: "/moodboards/no_ones.jpg" },
 ];
