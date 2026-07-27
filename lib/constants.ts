@@ -41,12 +41,12 @@ export const SocialMediaLinks = [
     url: "https://pin.it/5apqM43Nz",
     iconSrc: "/social_media/PinterestIcon.svg",
   },
-  {
-    id: "youtube",
-    name: "YouTube",
-    url: "https://www.youtube.com/@ruslana_pidsadiuk",
-    iconSrc: "/social_media/YouTubeIcon.svg",
-  },
+  // {
+  //   id: "youtube",
+  //   name: "YouTube",
+  //   url: "https://www.youtube.com/@ruslana_pidsadiuk",
+  //   iconSrc: "/social_media/YouTubeIcon.svg",
+  // },
 ];
 
 export const Kingdoms = [
