@@ -360,6 +360,25 @@ export const Books = [
       { name: "Nestor", img: "/characters/Nestor.png" },
     ],
   },
+   {
+    id: "liberty",
+    title: "Liberty Cafe",
+    subtitle: "Where books meet coffee",
+    imageUrl: "/covers/liberty.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0HCM66GS8",
+    blurb:
+      "Step into the heart of an old city, where Liberty Cafe is tucked among its charming streets — a place where the aroma of freshly brewed coffee quietly mingles with the scent of printed books. \n A soft, cozy romance about two people who seem completely different, yet are exactly what the other needs. Their story begins with a rainstorm and a slice of cherry pie. \n Journey alongside them as not only their lives, but Liberty Cafe itself, slowly transforms. \n So wrap yourself in a warm blanket, pour your favorite drink, and settle in. Let this story whisper to you.",
+    quotes: [
+      "“Dedicated to the old town, the aroma of coffee, the rustle of printed pages, the taste of freshly baked pastries, and the beautiful patterns raindrops paint upon the window.”",
+    ],
+    feelsImgUrl: "/moodboards/liberty.jpg",
+    firstPage:
+      "Coming soon...",
+    characters: [
+      { name: "Nick", img: "/characters/Nick.png" },
+      { name: "Rita", img: "/characters/Rita.png" },
+    ],
+  },
 ];
 
 export const worlds = [
@@ -412,4 +431,5 @@ export const storyImages = [
   { id: "before_the_eyes_of_eternity", imageUrl: "/moodboards/eternity.jpg" },
   { id: "before_the_eyes_of_memories", imageUrl: "/moodboards/memories.jpg" },
   { id: "no_ones", imageUrl: "/moodboards/no_ones.jpg" },
+  { id: "liberty", imageUrl: "/moodboards/liberty.jpg" },
 ];
