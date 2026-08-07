@@ -25,7 +25,7 @@ export default function About() {
             loss, and the kind of love that does not promise easy answers.
           </p>
           <p className="leading-loose">
-            Her books move between historical fiction, contemporary drama, and
+            Her books move between historical fantasy, contemporary drama, and
             mythology, but always remain grounded in human experience —
             intimate, restrained, and meant to be felt as much as read.
           </p>
