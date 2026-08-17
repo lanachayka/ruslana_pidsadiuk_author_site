@@ -360,7 +360,7 @@ export const Books = [
       { name: "Nestor", img: "/characters/Nestor.png" },
     ],
   },
-   {
+  {
     id: "liberty",
     title: "Liberty Cafe",
     subtitle: "Where books meet coffee",
@@ -370,10 +370,14 @@ export const Books = [
       "Step into the heart of an old city, where Liberty Cafe is tucked among its charming streets — a place where the aroma of freshly brewed coffee quietly mingles with the scent of printed books. \n A soft, cozy romance about two people who seem completely different, yet are exactly what the other needs. Their story begins with a rainstorm and a slice of cherry pie. \n Journey alongside them as not only their lives, but Liberty Cafe itself, slowly transforms. \n So wrap yourself in a warm blanket, pour your favorite drink, and settle in. Let this story whisper to you.",
     quotes: [
       "“Dedicated to the old town, the aroma of coffee, the rustle of printed pages, the taste of freshly baked pastries, and the beautiful patterns raindrops paint upon the window.”",
+      "“On the way home, I thought about them. About the warmth of home. About how routine and work fill the gaps in our lives. And about how sometimes it feels good to get away, even from a place you love with all your heart.”",
+      "“They always sat alone. She wrote, and he read. And now they’d found each other — thanks to books, too.”",
+      "“It felt as though it had always been meant to be this way. As though she had been part of my life for a long time. I had simply found her only now.”",
+      "“And there was so much more in that thank you than gratitude for finding us somewhere to eat. \n I was thanking her for being there. \n For understanding me without words. \n For almost always knowing what to do. \n And simply for being Rita.”",
     ],
     feelsImgUrl: "/moodboards/liberty.jpg",
     firstPage:
-      "Coming soon...",
+      "The quiet melody of my alarm, the first notes waking me immediately. The first rays of sunlight slipping through the thin, weightless curtains. And just like that, a new day began.\n My morning routine.\n Quick, methodical preparations.\n My bag with my notebook, laptop, and lunch containers slung over my shoulder.\n I checked that I hadn’t forgotten anything, that I’d turned off the water and the lights. By the door, I turned back and checked everything one more time. Then I took the keys, which always sat in a decorative white basket on the shoe cabinet, and left my apartment. After locking the door, of course. And checking that I had actually locked it.\n Outside, it was quite cool, but surprisingly pleasant. There weren’t many cars yet. The half-empty streets were paved with dark, old cobblestones.\n The rustle of young trees that had recently been planted along the long, winding avenue.\n The loud clang of a tram nearby. I turned around — it was my number eleven. I glanced at my watch. It’s in a hurry today.\n Technically, I had enough time to run to the stop and catch it. But I also had enough time to walk. And that was always the more pleasant option for me.\n I love this city. It’s old, even historic, with beautiful architecture and an incredibly warm atmosphere.\n If you visit for the first time, you might get the wrong impression that no one here is ever in a hurry. That people do nothing but stroll around, sip coffee on cozy terraces, and enjoy life.\n Well, of course, that’s not true. Or rather, not entirely true. Or rather, not always. It’s hard to explain. You have to experience it.",
     characters: [
       { name: "Nick", img: "/characters/Nick.png" },
       { name: "Rita", img: "/characters/Rita.png" },
