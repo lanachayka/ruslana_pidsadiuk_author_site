@@ -92,11 +92,20 @@ export const Books = [
       "“It was not a hunt for a young princess’s amusement — it was a dance of life and death, a dance of beginning and end.”",
       "“Reveka and Heinrich both possessed gentle strength — a power that effortlessly won the hearts of their people.”",
     ],
-    feelsImgUrl: "/moodboards/queen_of_archers.jpg",
+    feels: [
+      { id: "main", img: "/moodboards/queen_of_archers.jpg" },
+      { id: "1", img: "/moodboards/queen_of_archers1.jpeg" },
+      { id: "2", img: "/moodboards/queen_of_archers2.jpeg" },
+      { id: "3", img: "/moodboards/queen_of_archers3.jpeg" },
+      { id: "4", img: "/moodboards/queen_of_archers4.jpeg" },
+      { id: "5", img: "/moodboards/queen_of_archers5.jpeg" },
+      { id: "6", img: "/moodboards/queen_of_archers6.jpeg" },
+    ],
     firstPage:
       "In an instant, everything sharpened — the morning forest, the air, her gaze — and the hunting instinct awakened. The bow became a continuation of her body, of her stance; her movements — precise, steady, impossibly swift. Hunting a wild beast, she merged with the forest, guided by instinct, always venturing alone into the depths of the tangled, ancient trees. There, her breath grew barely perceptible, her body — supple as a predator’s, her eyes — piercing. It was not a hunt for a young princess’s amusement — it was a dance of life and death, a dance of beginning and end.",
     characters: [
       { name: "Heinrich & Reveka", img: "/characters/HeinrichAndReveka.png" },
+      { name: "RevekaArt", img: "/characters/RevekaArt.jpg" },
       { name: "Reveka", img: "/characters/Reveka.png" },
       { name: "Heinrich", img: "/characters/Henry.png" },
       { name: "Rosamund", img: "/characters/Rosamund.png" },
@@ -118,7 +127,10 @@ export const Books = [
       "“I hope you will find your people, my son. That matters far more...”",
       "“We must fight for the sake of those who are still alive…do not destroy yourself”",
     ],
-    feelsImgUrl: "/moodboards/the_kings_path.jpg",
+    feels: [
+      { id: "main", img: "/moodboards/the_kings_path.jpg" },
+      { id: "1", img: "/moodboards/the_kings_path1.jpeg" },
+    ],
     firstPage:
       "A difficult choice between the sea and the mountains, between the heart and duty, between passion and reason. \n Queen Enora of Rowendar stood on the highest tower of the castle, gazing into the distance. From one window, the snowy ridges of Orleim unfolded; from the other — the wild, unrestrained Northern Sea. She walked between these windows, trying to choose the course of her fate — to act both rightly and honestly. \n But it was impossible. Reason urged her not to act foolishly and to live as the law demanded — beside her husband, Garvey, who until recently had been a prince of Orleim. Yet her heart belonged to the young knight from Marenburd — Johan.",
     characters: [
@@ -142,7 +154,7 @@ export const Books = [
       "“Your Majesty… it is even right that it will be you who bury me. If it were the other way around — I would not have endured it. And you… you will go on. Stronger.”",
       "“Voices echoed in his mind: righteous thoughts mingled with cruel ones, anger struggled against mercy.”",
     ],
-    feelsImgUrl: "/moodboards/legacy.jpg",
+    feels: [{ id: "main", img: "/moodboards/legacy.jpg" }],
     firstPage:
       "The four stood holding hands, for the moment of parting had come. The moment was sad and happy at once. Aren recalled his mother’s words: “You will be even better…” and his father’s: “But you must be strong, care for one another…”. At the thought of these memories, his hands trembled of their own accord, and his heart tightened. He and his sister were setting out for Rowendar, while the brothers remained in Marenburd. Such was their father’s will, so it had been decided long ago, and so it was right — yet for some reason it did not feel so.",
     characters: [
@@ -167,7 +179,7 @@ export const Books = [
       "“About how she felt when she was with him. \n Safe. Calm. Supported. \n She wanted more. She wanted to be with him. \n Not to run away. Not to hide. Quite the opposite. \n To stay close to him. To be near him. To be with him.”",
       "“You chose him once. Now accept all of him.”",
     ],
-    feelsImgUrl: "/moodboards/new_land.jpg",
+    feels: [{ id: "main", img: "/moodboards/new_land.jpg" }],
     firstPage:
       "The sun stood high in the sky, and the fine white sand beneath his feet was unbearably hot. But Goi's feet had long since grown used to it. Calm and unhurried, he made his way toward the water to check the nets he had set out earlier that morning. White-and-gray birds with large beaks wandered along the shore. Like Goi, they roamed the shore in search of food. \n He carefully checked the nets, stepping into the cool water. Small, brightly colored fish swam past his legs, too tiny to be caught in the nets. They were not edible anyway. Everything bright and beautiful from afar served as a warning to keep one's distance. More often than not, vivid colors were a sign that a creature or plant was either dangerous or poisonous. \n Goi's attention was drawn to a small monkey that had wandered unusually close to the water. That was strange, as they had never been fond of saltwater and rarely ventured this near the ocean. He decided it must have found something far more interesting than its fear of the sea. \n Goi moved closer and saw that the monkey was playing with a person's hair. Yet he had never seen anyone like this before. A man as white as milk, with hair the color of sunlight, lay on the wet sand dressed in strange clothes. He was thin, much smaller than anyone Goi had ever seen before. He had a straight, narrow nose and thin lips. He could not make out the color of the stranger's eyes, for they were closed.",
     characters: [
@@ -188,7 +200,7 @@ export const Books = [
       "“I am here to tell my story. One you will probably not believe — and I don’t care.“",
       "“I follow only one religion — the truth.”",
     ],
-    feelsImgUrl: "/moodboards/i_see_you.jpg",
+    feels: [{ id: "main", img: "/moodboards/i_see_you.jpg" }],
     firstPage:
       "I am here to tell my story. One you will probably not believe — and I don’t care. \n Is my life interesting? No. Ordinary. \n Is it better than yours? Maybe. Or maybe — even worse. \n Have I succeeded? In some ways, yes. In others, no. Nothing special. \n So why am I telling this, and why should you read it? A fair question. Well, my answer is simple — I am not chasing uniqueness, fame, awards or applause. \n I follow only one religion — the truth.",
     characters: [
@@ -213,7 +225,10 @@ export const Books = [
       "“She could not step beyond herself — not even for the sake of the whole world.”",
       "“The bounds of time grow blurred in a life too long…”",
     ],
-    feelsImgUrl: "/moodboards/the_most_precious_gift.jpg",
+    feels: [
+      { id: "main", img: "/moodboards/the_most_precious_gift.jpg" },
+      { id: "1", img: "/moodboards/the_most_precious_gift1.jpeg" },
+    ],
     firstPage:
       "Within the depths of our Mother Earth there was — it lived, it smoldered, it heaved, it swelled with heat — a vast egg. Its warmth wrapped the whole earth. And with each day its strength and its greatness increased. \n It pulsed, it trembled, it shuddered. It set all around it in motion, it turned over, it spun, it leapt. And it seemed that at any moment it would break everything apart. \n An irresistible force ripened within it. Terrible, vast, mighty, unthinkable, unseen, unheard, firstborn, ruinous, life-giving, divine. \n It was the beginning, and it was the end. \n It was the summit, and it was the depth. \n It was the first, and it was the last.",
     characters: [
@@ -252,7 +267,12 @@ export const Books = [
       "“And it showed me the truth about myself: the fact that I hide my desires does not mean that I do not have them.”",
       "“I knew that this moment of weakness would allow me to go on — tomorrow, the day after, and on all the days that would follow.”",
     ],
-    feelsImgUrl: "/moodboards/doubt.jpg",
+    feels: [
+      { id: "main", img: "/moodboards/doubt.jpg" },
+      { id: "1", img: "/moodboards/doubt1.jpeg" },
+      { id: "2", img: "/moodboards/doubt2.jpeg" },
+      { id: "3", img: "/moodboards/doubt3.jpeg" },
+    ],
     firstPage:
       "Who are changelings? You hardly hear that word anymore in polite conversation. Unless it appears in frightening tales told to disobedient children. \n “Keep behaving like that,” she said, “and you will end up among the changelings.” \n “Oh, I should have left you… I truly should have.” \n It does not sound particularly reassuring. But whether it is effective is another question. \n The phenomenon is fading with its time. And perhaps that is for the better. \n Whole generations grew up in baskets left on the thresholds of God’s houses. There were many reasons for such a decision, and each was different. Lack of money, troubled families, an unwanted pregnancy at a young age, the exposure of betrayal, the anger of their elders, the death of parents, unpreparedness for responsibility, fear, disabilities and disease, the hope for a better life. And even the belief that everything is God’s will.",
     characters: [
@@ -277,7 +297,12 @@ export const Books = [
       "“That was how we touched each other’s worlds, each sacrificing something of our own. A part of ourselves.”",
       "“For the first time in a long while, I was not merely listened to — I was heard. Not merely looked at — but truly seen.”",
     ],
-    feelsImgUrl: "/moodboards/passion.jpg",
+    feels: [
+      { id: "main", img: "/moodboards/passion.jpg" },
+      { id: "2", img: "/moodboards/passion2.jpeg" },
+      { id: "3", img: "/moodboards/passion3.jpeg" },
+      { id: "1", img: "/moodboards/passion1.jpeg" },
+    ],
     firstPage:
       "Marauder. Shameless man. Disgrace of the family. \n The one who did not live up to expectations — expectations that were born before him. \n The only son and the greatest disappointment. The one who disgraces the family and brings the line to an end. \n And this list could go on endlessly. \n And yes, all of this is about me. \n What have I done to deserve this? And did I deserve it at all?",
     characters: [
@@ -304,7 +329,11 @@ export const Books = [
       "“How the very same words could mean entirely opposite things to those who heard them.”",
       "“That was what both of us knew how to do best — keep moving forward, no matter what.”",
     ],
-    feelsImgUrl: "/moodboards/eternity.jpg",
+    feels: [
+      { id: "main", img: "/moodboards/eternity.jpg" },
+      { id: "1", img: "/moodboards/eternity1.jpeg" },
+      { id: "2", img: "/moodboards/eternity2.jpeg" },
+    ],
     firstPage:
       "The first deep breath. Barely warm air. The scent of hot sand, fresh water, and dry plants. \n The first glance around. Quick. Evaluating. Uncomprehending. Curious. \n Yellow sands, tall solitary palms, yellowed grass, a small body of water surrounded by reeds. A dark sky strewn with bright stars, and the moon — vast, powerful, full, and unreachable. \n The sounds of crickets and frogs, the barely perceptible rustle of the wind, the hum of the scorched earth. \n And me amid this world. \n Feeling, observing, growing accustomed, trying to understand — and eventually to live within it.",
     characters: [
@@ -330,7 +359,7 @@ export const Books = [
       "“She was the best decision I had ever made. My gift from fate. My greatest sin and, at the same time, my greatest happiness.”",
       "“Everything leaves its mark. Everything affects us. Everything changes us.”",
     ],
-    feelsImgUrl: "/moodboards/eternity.jpg",
+    feels: [{ id: "main", img: "/moodboards/eternity.jpg" }],
     firstPage:
       "Peace. Calm. Routine. Strange concepts. When they appear in our lives, it becomes clear at once that they will not remain for long. That change is waiting somewhere beyond your threshold. Waiting, watching, holding you in suspense, never allowing you to fully enjoy the fleeting, simple, and quiet happiness of sameness. \n That is the essence of it. Nothing is eternal except change. And no matter how we prepare for it, no matter how we wait for it — we will always be unprepared.",
     characters: [
@@ -352,7 +381,14 @@ export const Books = [
       "“She was no one's, he had become nobody, yet what lay between them was more than nothing”",
       "“No one's and the man who had become nobody. Two people who found each other. And could no longer let go.”",
     ],
-    feelsImgUrl: "/moodboards/no_ones.jpg",
+    feels: [
+      { id: "main", img: "/moodboards/no_ones.jpg" },
+      { id: "1", img: "/moodboards/no_ones1.jpeg" },
+      { id: "2", img: "/moodboards/no_ones2.jpeg" },
+      { id: "3", img: "/moodboards/no_ones3.jpeg" },
+      { id: "4", img: "/moodboards/no_ones4.jpeg" },
+      { id: "5", img: "/moodboards/no_ones5.jpeg" },
+    ],
     firstPage:
       "Early autumn is a beautiful time of year. Especially in the forest. The trees turn golden, dressed in their finest. Flocks of birds cross the sky in neat formations. No one teaches them how, yet they know. More importantly, they know where they are going. Rain comes and goes now and then. After a long, scorching summer, rain is welcome. Mushrooms scent the air, pushing their way out of the ground. They are not there one day when you walk past, and the next, there they are. The grass grows dry. It grows less and rustles more. \n Around the houses, there is more work to be done. The harvest must be gathered in, preparations made for winter, everything put in order. Everything has its place. Our folk do not tolerate disorder. And rightly so. Idleness has never done anyone any good. And honest work has never ruined anyone.",
     characters: [
@@ -375,7 +411,12 @@ export const Books = [
       "“It felt as though it had always been meant to be this way. As though she had been part of my life for a long time. I had simply found her only now.”",
       "“And there was so much more in that thank you than gratitude for finding us somewhere to eat. \n I was thanking her for being there. \n For understanding me without words. \n For almost always knowing what to do. \n And simply for being Rita.”",
     ],
-    feelsImgUrl: "/moodboards/liberty.jpg",
+    feels: [
+      { id: "main", img: "/moodboards/liberty.jpg" },
+      { id: "1", img: "/moodboards/liberty1.jpeg" },
+      { id: "2", img: "/moodboards/liberty2.jpeg" },
+      { id: "3", img: "/moodboards/liberty3.jpeg" },
+    ],
     firstPage:
       "The quiet melody of my alarm, the first notes waking me immediately. The first rays of sunlight slipping through the thin, weightless curtains. And just like that, a new day began.\n My morning routine.\n Quick, methodical preparations.\n My bag with my notebook, laptop, and lunch containers slung over my shoulder.\n I checked that I hadn’t forgotten anything, that I’d turned off the water and the lights. By the door, I turned back and checked everything one more time. Then I took the keys, which always sat in a decorative white basket on the shoe cabinet, and left my apartment. After locking the door, of course. And checking that I had actually locked it.\n Outside, it was quite cool, but surprisingly pleasant. There weren’t many cars yet. The half-empty streets were paved with dark, old cobblestones.\n The rustle of young trees that had recently been planted along the long, winding avenue.\n The loud clang of a tram nearby. I turned around — it was my number eleven. I glanced at my watch. It’s in a hurry today.\n Technically, I had enough time to run to the stop and catch it. But I also had enough time to walk. And that was always the more pleasant option for me.\n I love this city. It’s old, even historic, with beautiful architecture and an incredibly warm atmosphere.\n If you visit for the first time, you might get the wrong impression that no one here is ever in a hurry. That people do nothing but stroll around, sip coffee on cozy terraces, and enjoy life.\n Well, of course, that’s not true. Or rather, not entirely true. Or rather, not always. It’s hard to explain. You have to experience it.",
     characters: [

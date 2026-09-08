@@ -54,16 +54,23 @@ export default async function BookPage({
           </Carousel>
           <Divider size="large" />
           <PageSubtitle subtitle="How this story Feels" />
-          <div className="flex justify-center">
-            <Image
-              src={book.feelsImgUrl}
-              width={300}
-              height={300}
-              className="rounded-md"
-              alt={`${book.title} moodboard`}
-              priority
-            />
-          </div>
+          <Carousel>
+            {book.feels.map((feel) => (
+              <div
+                key={feel.id}
+                className="h-75 shrink-0 w-full flex justify-center items-center px-8"
+              >
+                <Image
+                  src={feel.img}
+                  width={300}
+                  height={300}
+                  className="h-75 w-auto rounded-md object-contain"
+                  alt={`${book.title} moodboard`}
+                  priority
+                />
+              </div>
+            ))}
+          </Carousel>
           <Divider size="large" />
           <PageSubtitle subtitle="The Beginning" />
           <p className="text-center leading-loose whitespace-pre-wrap">
@@ -75,10 +82,10 @@ export default async function BookPage({
             {book.characters.map((character) => (
               <div
                 key={character.name}
-                className="shrink-0 w-full flex justify-center items-center px-8"
+                className="h-75 shrink-0 w-full flex justify-center items-center px-8"
               >
                 <Image
-                  className="rounded-md"
+                  className="max-h-full w-auto rounded-md object-contain"
                   src={character.img}
                   alt={character.name}
                   width={250}
