@@ -11,6 +11,8 @@ export type CardProps = {
   subtitle?: string;
   imageUrl: string;
   amazonUrl: string;
+  appleBooksUrl?: string;
+  koboUrl?: string;
 };
 
 export default function BookCard({
@@ -19,6 +21,8 @@ export default function BookCard({
   subtitle,
   imageUrl,
   amazonUrl,
+  appleBooksUrl,
+  koboUrl,
 }: CardProps): React.JSX.Element {
   const router = useRouter();
 
@@ -36,8 +40,20 @@ export default function BookCard({
       />
       <h3 className="text-lg font-bold">{title}</h3>
       {subtitle && <p className="text-center">{subtitle}</p>}
-      <div onClick={(e) => e.stopPropagation()}>
-        <LinkButton href={amazonUrl}>Read on Amazon</LinkButton>
+      <div onClick={(e) => e.stopPropagation()} className="flex w-full gap-2">
+        <LinkButton className="min-w-0 flex-1 px-2" href={amazonUrl}>
+          Amazon
+        </LinkButton>
+        {koboUrl && (
+          <LinkButton className="min-w-0 flex-1 px-2" href={koboUrl}>
+            Kobo
+          </LinkButton>
+        )}
+        {appleBooksUrl && (
+          <LinkButton className="min-w-0 flex-1 px-2" href={appleBooksUrl}>
+            Apple
+          </LinkButton>
+        )}
       </div>
     </div>
   );

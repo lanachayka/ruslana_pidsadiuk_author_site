@@ -15,7 +15,7 @@ export default function LinkButton({
     <Link
       href={href}
       className={`
-      inline-flex items-center justify-center
+      inline-flex shrink-0 items-center justify-center
       px-5 py-2 rounded-md
       bg-[#7C8F80] text-[#dde5d3]
       border border-[#5A6D62]/40

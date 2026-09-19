@@ -16,26 +16,50 @@ export default async function BookPage({
 }): Promise<React.JSX.Element> {
   const { id } = await params;
   const book = Books.find((b) => b.id === id);
+  const purchaseLinks = [
+    { href: book?.amazonUrl, label: "Amazon" },
+    book?.koboUrl ? { href: book.koboUrl, label: "Kobo" } : null,
+    book?.appleBooksUrl
+      ? { href: book.appleBooksUrl, label: "Apple Books" }
+      : null,
+  ].filter(Boolean) as { href: string; label: string }[];
 
   return (
     <div className="flex-col items-center space-y-4">
       {book ? (
         <>
           <PageTitle title={book.title} />
-          <div className="flex-col items-star md:flex-row justify-center gap-6 flex">
-            <div className="flex flex-col items-center space-y-4">
+          <div className="flex w-full flex-col items-center justify-center gap-6 md:flex-row md:items-start">
+            <div className="flex w-full max-w-[220px] shrink-0 flex-col items-center space-y-4">
               <Image
                 width={200}
                 height={200}
                 src={book.imageUrl}
                 alt={book.title}
                 priority
+                className="w-[200px] h-auto shrink-0 rounded-md"
               />
-              <LinkButton href={book.amazonUrl} className="w-50">
-                Read on Amazon
-              </LinkButton>
+              <div
+                className={`flex w-full gap-2 ${
+                  purchaseLinks.length === 1 ? "flex-col" : "flex-row"
+                }`}
+              >
+                {purchaseLinks.map((link) => (
+                  <LinkButton
+                    key={link.label}
+                    href={link.href}
+                    className={
+                      purchaseLinks.length === 1
+                        ? "w-full min-w-0 px-2"
+                        : "min-w-0 flex-1 px-2"
+                    }
+                  >
+                    {link.label}
+                  </LinkButton>
+                ))}
+              </div>
             </div>
-            <div className="flex flex-col space-y-4">
+            <div className="flex w-full max-w-2xl flex-col items-center space-y-4 text-center md:items-start md:text-left">
               <p className="text-xl">{book.subtitle}</p>
               <p className="leading-loose whitespace-pre-wrap">{book.blurb}</p>
             </div>
