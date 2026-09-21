@@ -376,7 +376,7 @@ export const Books = [
     imageUrl: "/covers/no_ones.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H1JMJHLJ",
     //koboUrl: "https://www.kobo.com/us/en/ebook/no-one-s-1",
-    //appleBooksUrl: "http://books.apple.com/us/book/id6813937236",
+    appleBooksUrl: "http://books.apple.com/us/book/id6813937236",
     blurb:
       "Near a dense forest stands a lonely house. It is home to Marfa — a healer, a midwife, and a stubborn woman who has spent her entire life believing that she belongs to no one. \n But fate has a habit of telling its own stories. \n One day, among the forest paths, Marfa finds a wounded stranger. A man who has lost his home, his past, and a part of himself. A man who has become nobody. \n Thus begins the story of two people who were never looking for love. A story of trust, care, and finding a home where they least expected it. \n Filled with Ukrainian folklore, folk beliefs, forest legends, traditions, and the rhythms of rural life, No One's is a warm and comforting story about two stubborn souls who crossed paths and, once they did, could no longer let go.",
     quotes: [

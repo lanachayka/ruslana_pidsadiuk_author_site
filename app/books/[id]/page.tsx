@@ -18,7 +18,7 @@ export default async function BookPage({
   const book = Books.find((b) => b.id === id);
   const purchaseLinks = [
     { href: book?.amazonUrl, label: "Amazon" },
-    book?.koboUrl ? { href: book.koboUrl, label: "Kobo" } : null,
+    //book?.koboUrl ? { href: book.koboUrl, label: "Kobo" } : null,
     book?.appleBooksUrl
       ? { href: book.appleBooksUrl, label: "Apple Books" }
       : null,
