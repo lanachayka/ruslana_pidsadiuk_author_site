@@ -20,7 +20,7 @@ export default async function BookPage({
     { href: book?.amazonUrl, label: "Amazon" },
     //book?.koboUrl ? { href: book.koboUrl, label: "Kobo" } : null,
     book?.appleBooksUrl
-      ? { href: book.appleBooksUrl, label: "Apple Books" }
+      ? { href: book.appleBooksUrl, label: "Apple" }
       : null,
   ].filter(Boolean) as { href: string; label: string }[];
 
