@@ -395,6 +395,7 @@ export const Books = [
       "Early autumn is a beautiful time of year. Especially in the forest. The trees turn golden, dressed in their finest. Flocks of birds cross the sky in neat formations. No one teaches them how, yet they know. More importantly, they know where they are going. Rain comes and goes now and then. After a long, scorching summer, rain is welcome. Mushrooms scent the air, pushing their way out of the ground. They are not there one day when you walk past, and the next, there they are. The grass grows dry. It grows less and rustles more. \n Around the houses, there is more work to be done. The harvest must be gathered in, preparations made for winter, everything put in order. Everything has its place. Our folk do not tolerate disorder. And rightly so. Idleness has never done anyone any good. And honest work has never ruined anyone.",
     characters: [
       { name: "MarfaArt", img: "/characters/MarfaART.png" },
+       { name: "NestorArt", img: "/characters/NestorART.png" },
       { name: "Marfa", img: "/characters/Marfa.png" },
       { name: "Nestor", img: "/characters/Nestor.png" },
     ],
