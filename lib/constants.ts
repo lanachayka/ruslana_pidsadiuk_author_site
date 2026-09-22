@@ -428,6 +428,28 @@ export const Books = [
       { name: "Rita", img: "/characters/Rita.png" },
     ],
   },
+  {
+    id: "mirabelle",
+    title: "Mirabelle",
+    subtitle: "Book 1 of 3: Bound by the Sea Series",
+    imageUrl: "/covers/mirabelle.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0HKNMNFW2",
+    appleBooksUrl: "http://books.apple.com/us/book/id6814823041",
+    blurb:
+      "In a world where the sea lies at the heart of everything, where humans share its waters with mermaids, sirens, and sea creatures, two souls bound to the sea find each other. \n This is their story — the story of their meeting and the journey that draws them closer. \n Filled with voyages across the sea, adventures, unfamiliar shores, and new discoveries, Mirabelle is, above all, a story of two people finding their way to each other and of the feelings that grow between them.",
+    quotes: [
+      "“For those whose only true remedy is the Sea”",
+    ],
+    feels: [
+      { id: "main", img: "/moodboards/mirabelle.jpg" },
+    ],
+    firstPage:
+      "There is an ancient sea legend about two souls bound together forever. The sea guides them, calls to them, brings them together — and only the sea can tear them apart. It becomes both their salvation and their trial. Their first and last song. The end of one life and the beginning of another… \n “Will they fall in love? Will they be together?” \n “Only the sea knows, my dear.” \n“But in all the fairy tales…” \n “This is no fairy tale. It’s late. Sleep, my dear. Sleep, my Mirabelle.”",
+    characters: [
+      { name: "Mirabelle", img: "/characters/Mirabelle.png" },
+      { name: "Brom", img: "/characters/Brom.png" },
+    ],
+  },
 ];
 
 export const worlds = [
@@ -456,6 +478,16 @@ export const worlds = [
     subtitle: "slow-burn romance",
     image: "/moodboards/no_ones.jpg",
   },
+   {
+    title: "Cafe in old town",
+    subtitle: "cozy romance",
+    image: "/moodboards/liberty.jpg",
+  },
+   {
+    title: "Sea Fantasy",
+    subtitle: "adventures romance",
+    image: "/moodboards/mirabelle.jpg",
+  },
 ];
 
 export const readerCards = [
@@ -481,4 +513,5 @@ export const storyImages = [
   { id: "before_the_eyes_of_memories", imageUrl: "/moodboards/memories.jpg" },
   { id: "no_ones", imageUrl: "/moodboards/no_ones.jpg" },
   { id: "liberty", imageUrl: "/moodboards/liberty.jpg" },
+  { id: "mirabelle", imageUrl: "/moodboards/mirabelle.jpg" },
 ];
