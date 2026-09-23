@@ -439,6 +439,8 @@ export const Books = [
       "In a world where the sea lies at the heart of everything, where humans share its waters with mermaids, sirens, and sea creatures, two souls bound to the sea find each other. \n This is their story — the story of their meeting and the journey that draws them closer. \n Filled with voyages across the sea, adventures, unfamiliar shores, and new discoveries, Mirabelle is, above all, a story of two people finding their way to each other and of the feelings that grow between them.",
     quotes: [
       "“For those whose only true remedy is the Sea”",
+      "“Strange… So strange, but it feels so good… \nIt’s a pity this story ended before it even began… \n But that’s how it has to be. That’s the right thing.”",
+      "“You know, Mira, sometimes there’s no point waiting for the weather to come from the sea. You just have to go.”",
     ],
     feels: [
       { id: "main", img: "/moodboards/mirabelle.jpg" },
