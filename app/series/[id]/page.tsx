@@ -1,4 +1,5 @@
 import { Books, Series } from "@/lib/constants";
+import Image from "next/image";
 import BooksList from "../../components/BooksList";
 
 type SeriesPageProps = {
@@ -15,10 +16,14 @@ export default async function SeriesPage({
   return (
     <div className="relative isolate overflow-hidden rounded-xl">
       {series?.bg && (
-        <div
+        <Image
+          src={series.bg}
+          alt=""
+          fill
+          priority
+          sizes="100vw"
           aria-hidden="true"
-          className="absolute inset-0 bg-cover bg-center opacity-50"
-          style={{ backgroundImage: `url(${series.bg})` }}
+          className="object-cover object-center opacity-50"
         />
       )}
       <div className="relative bg-[#E8EFE0]/35 px-4 py-8">

@@ -7,6 +7,7 @@ import PageSubtitle from "@/app/components/PageSubtitle";
 import PageTitle from "@/app/components/PageTitle";
 import { Books } from "@/lib/constants";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default async function BookPage({
@@ -60,7 +61,16 @@ export default async function BookPage({
               </div>
             </div>
             <div className="flex w-full max-w-2xl flex-col items-center space-y-4 text-center md:items-start md:text-left">
-              <p className="text-xl">{book.subtitle}</p>
+              {book.seriesUrl ? (
+                <Link
+                  href={book.seriesUrl}
+                  className="text-xl hover:underline"
+                >
+                  {book.subtitle}
+                </Link>
+              ) : (
+                <p className="text-xl">{book.subtitle}</p>
+              )}
               <p className="leading-loose whitespace-pre-wrap">{book.blurb}</p>
             </div>
           </div>

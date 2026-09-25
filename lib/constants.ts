@@ -82,6 +82,7 @@ export const Books = [
     id: "queen_of_archers",
     title: "Queen of Archers",
     subtitle: "Book 1 of 3: The Northern Sea Legacy Series",
+    seriesUrl: "/series/the_northern_sea_legacy",
     imageUrl: "/covers/queen_of_archers.png",
     amazonUrl: "https://www.amazon.com/dp/B0G34GYJKH",
     blurb:
@@ -116,6 +117,7 @@ export const Books = [
     id: "the_kings_path",
     title: "The King's Path",
     subtitle: "Book 2 of 3: The Northern Sea Legacy Series",
+    seriesUrl: "/series/the_northern_sea_legacy",
     imageUrl: "/covers/the_kings_path.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G5PN5VLJ",
     blurb:
@@ -143,6 +145,7 @@ export const Books = [
     id: "legacy_of_the_northern_sea",
     title: "Legacy of the Northern Sea",
     subtitle: "Book 3 of 3: The Northern Sea Legacy Series",
+    seriesUrl: "/series/the_northern_sea_legacy",
     imageUrl: "/covers/legacy_of_the_northern_sea.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GDQBVHG8",
     blurb:
@@ -169,6 +172,7 @@ export const Books = [
     id: "new_land",
     title: "New Land",
     subtitle: "A standalone companion novel to The Northern Sea Legacy series",
+    seriesUrl: "/series/the_northern_sea_legacy",
     imageUrl: "/covers/new_land.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GX32LFBG",
     blurb:
@@ -254,6 +258,7 @@ export const Books = [
     id: "before_the_eyes_of_doubt",
     title: "Before the Eyes of Doubt",
     subtitle: "Part of: Before the Eyes Series",
+    seriesUrl: "/series/before_the_eyes",
     imageUrl: "/covers/before_the_eyes_of_doubt.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GS3K6PKP",
     blurb:
@@ -284,6 +289,7 @@ export const Books = [
     id: "before_the_eyes_of_passion",
     title: "Before the Eyes of Passion",
     subtitle: "Part of: Before the Eyes Series",
+    seriesUrl: "/series/before_the_eyes",
     imageUrl: "/covers/before_the_eyes_of_passion.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GHV5LWTK",
     blurb:
@@ -314,6 +320,7 @@ export const Books = [
     id: "before_the_eyes_of_eternity",
     title: "Before the Eyes of Eternity",
     subtitle: "Part of: Before the Eyes Series",
+    seriesUrl: "/series/before_the_eyes",
     imageUrl: "/covers/before_the_eyes_of_eternity.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H26RCQGK",
     blurb:
@@ -346,6 +353,7 @@ export const Books = [
     id: "before_the_eyes_of_memories",
     title: "Before the Eyes of Memories",
     subtitle: "The Final Book of the Before the Eyes Series",
+    seriesUrl: "/series/before_the_eyes",
     imageUrl: "/covers/before_the_eyes_of_memories.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H517G6HH",
     blurb:
@@ -432,6 +440,7 @@ export const Books = [
     id: "mirabelle",
     title: "Mirabelle",
     subtitle: "Book 1 of 3: Bound by the Sea Series",
+    seriesUrl: "/series/bound_by_the_sea",
     imageUrl: "/covers/mirabelle.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0HKNMNFW2",
     appleBooksUrl: "http://books.apple.com/us/book/id6814823041",
