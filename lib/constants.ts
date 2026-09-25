@@ -395,7 +395,7 @@ export const Books = [
       "Early autumn is a beautiful time of year. Especially in the forest. The trees turn golden, dressed in their finest. Flocks of birds cross the sky in neat formations. No one teaches them how, yet they know. More importantly, they know where they are going. Rain comes and goes now and then. After a long, scorching summer, rain is welcome. Mushrooms scent the air, pushing their way out of the ground. They are not there one day when you walk past, and the next, there they are. The grass grows dry. It grows less and rustles more. \n Around the houses, there is more work to be done. The harvest must be gathered in, preparations made for winter, everything put in order. Everything has its place. Our folk do not tolerate disorder. And rightly so. Idleness has never done anyone any good. And honest work has never ruined anyone.",
     characters: [
       { name: "MarfaArt", img: "/characters/MarfaART.png" },
-       { name: "NestorArt", img: "/characters/NestorART.png" },
+      { name: "NestorArt", img: "/characters/NestorART.png" },
       { name: "Marfa", img: "/characters/Marfa.png" },
       { name: "Nestor", img: "/characters/Nestor.png" },
     ],
@@ -442,9 +442,7 @@ export const Books = [
       "“Strange… So strange, but it feels so good… \nIt’s a pity this story ended before it even began… \n But that’s how it has to be. That’s the right thing.”",
       "“You know, Mira, sometimes there’s no point waiting for the weather to come from the sea. You just have to go.”",
     ],
-    feels: [
-      { id: "main", img: "/moodboards/mirabelle.jpg" },
-    ],
+    feels: [{ id: "main", img: "/moodboards/mirabelle.jpg" }],
     firstPage:
       "There is an ancient sea legend about two souls bound together forever. The sea guides them, calls to them, brings them together — and only the sea can tear them apart. It becomes both their salvation and their trial. Their first and last song. The end of one life and the beginning of another… \n “Will they fall in love? Will they be together?” \n “Only the sea knows, my dear.” \n“But in all the fairy tales…” \n “This is no fairy tale. It’s late. Sleep, my dear. Sleep, my Mirabelle.”",
     characters: [
@@ -454,41 +452,79 @@ export const Books = [
   },
 ];
 
+export const Series = [
+  {
+    id: "before_the_eyes",
+    title: "Before the Eyes Series",
+    books: [
+      "before_the_eyes_of_doubt",
+      "before_the_eyes_of_passion",
+      "before_the_eyes_of_eternity",
+      "before_the_eyes_of_memories",
+    ],
+    bg: "/series_bg/before_the_eyes_bg.jpg",
+  },
+  {
+    id: "the_northern_sea_legacy",
+    title: "The Northern Sea Legacy Series",
+    books: [
+      "queen_of_archers",
+      "the_kings_path",
+      "legacy_of_the_northern_sea",
+      "new_land",
+    ],
+    bg: "/series_bg/the_northern_sea_legacy_bg.jpg",
+  },
+  {
+    id: "bound_by_the_sea",
+    title: "Bound by the Sea Series",
+    books: ["mirabelle"],
+    bg: "/series_bg/bound_by_the_sea_bg.jpg",
+  },
+];
+
 export const worlds = [
   {
     title: "Medieval",
     subtitle: "no magic",
     image: "/kingdoms/Marenburd.jpg",
+    link: "/series/the_northern_sea_legacy",
   },
   {
     title: "Contemporary",
     subtitle: "emotional fiction",
     image: "/moodboards/i_see_you.jpg",
+    link: "books/i_see_you",
   },
   {
     title: "Mythology",
     subtitle: "gods and humans",
     image: "/forces/Aliria.jpg",
+    link: "/books/the_most_precious_gift",
   },
   {
     title: "Gothic",
     subtitle: "1560–1860",
     image: "/moodboards/gothic.jpg",
+    link: "/series/before_the_eyes",
   },
   {
     title: "Ukranian Folklore",
     subtitle: "slow-burn romance",
     image: "/moodboards/no_ones.jpg",
+    link: "/books/no_ones",
   },
-   {
+  {
     title: "Cafe in old town",
     subtitle: "cozy romance",
     image: "/moodboards/liberty.jpg",
+    link: "/books/liberty",
   },
-   {
+  {
     title: "Sea Fantasy",
     subtitle: "adventures romance",
     image: "/moodboards/mirabelle.jpg",
+    link: "/series/bound_by_the_sea",
   },
 ];
 

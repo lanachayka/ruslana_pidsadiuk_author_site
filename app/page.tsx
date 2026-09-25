@@ -1,8 +1,8 @@
 import { readerCards, storyImages, worlds } from "@/lib/constants";
-import Image from "next/image";
 import Link from "next/link";
 import LinkButton from "./components/LinkButton";
 import StoryCard from "./components/StoryCard";
+import WorldCard from "./components/WorldCard";
 
 export default function HomePage() {
   return (
@@ -67,24 +67,11 @@ export default function HomePage() {
 
           <div className="grid grid-cols-2 gap-4">
             {worlds.map((world, index) => (
-              <div
+              <WorldCard
                 key={world.title}
-                className="relative h-48 overflow-hidden rounded-xl"
-              >
-                <Image
-                  height={300}
-                  width={300}
-                  src={world.image}
-                  alt={world.title}
-                  priority={index < 2}
-                  className="h-full w-full object-cover"
-                />
-                <div className="absolute inset-0 bg-black/20" />
-                <div className="absolute bottom-3 left-3 text-white">
-                  <p className="font-serif text-lg italic">{world.title}</p>
-                  <p className="text-xs">{world.subtitle}</p>
-                </div>
-              </div>
+                {...world}
+                index={index}
+              />
             ))}
           </div>
         </div>
