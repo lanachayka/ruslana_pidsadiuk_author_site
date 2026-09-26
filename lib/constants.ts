@@ -292,6 +292,7 @@ export const Books = [
     seriesUrl: "/series/before_the_eyes",
     imageUrl: "/covers/before_the_eyes_of_passion.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GHV5LWTK",
+    appleBooksUrl: "http://books.apple.com/us/book/id6814188597",
     blurb:
       "This is a story of passion on the edge of obsession. \n Emotional, honest, without embellishment. \n About those who fought for their feelings. And for the right to be together. \n About two hearts searching for their way to each other — through pain, mistakes, and time. \n About a bond strong enough to endure centuries. \n This is a story of passion. Wild. Powerful. Destructive. \n And about the fact that passion doesn’t have to be abandoned — \n it can be controlled.",
     quotes: [
@@ -443,6 +444,7 @@ export const Books = [
     seriesUrl: "/series/bound_by_the_sea",
     imageUrl: "/covers/mirabelle.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0HKNMNFW2",
+    koboUrl: "https://www.kobo.com/ww/en/ebook/mirabelle-13",
     appleBooksUrl: "http://books.apple.com/us/book/id6814823041",
     blurb:
       "In a world where the sea lies at the heart of everything, where humans share its waters with mermaids, sirens, and sea creatures, two souls bound to the sea find each other. \n This is their story — the story of their meeting and the journey that draws them closer. \n Filled with voyages across the sea, adventures, unfamiliar shores, and new discoveries, Mirabelle is, above all, a story of two people finding their way to each other and of the feelings that grow between them.",
