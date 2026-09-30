@@ -369,7 +369,7 @@ export const Books = [
       "“She was the best decision I had ever made. My gift from fate. My greatest sin and, at the same time, my greatest happiness.”",
       "“Everything leaves its mark. Everything affects us. Everything changes us.”",
     ],
-    feels: [{ id: "main", img: "/moodboards/eternity.jpg" }],
+    feels: [{ id: "main", img: "/moodboards/memories.jpg" }],
     firstPage:
       "Peace. Calm. Routine. Strange concepts. When they appear in our lives, it becomes clear at once that they will not remain for long. That change is waiting somewhere beyond your threshold. Waiting, watching, holding you in suspense, never allowing you to fully enjoy the fleeting, simple, and quiet happiness of sameness. \n That is the essence of it. Nothing is eternal except change. And no matter how we prepare for it, no matter how we wait for it — we will always be unprepared.",
     characters: [
