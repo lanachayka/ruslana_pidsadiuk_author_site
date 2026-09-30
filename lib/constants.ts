@@ -292,6 +292,7 @@ export const Books = [
     seriesUrl: "/series/before_the_eyes",
     imageUrl: "/covers/before_the_eyes_of_passion.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GHV5LWTK",
+    koboUrl: "https://www.kobo.com/ww/en/ebook/before-the-eyes-of-passion",
     appleBooksUrl: "http://books.apple.com/us/book/id6814188597",
     blurb:
       "This is a story of passion on the edge of obsession. \n Emotional, honest, without embellishment. \n About those who fought for their feelings. And for the right to be together. \n About two hearts searching for their way to each other — through pain, mistakes, and time. \n About a bond strong enough to endure centuries. \n This is a story of passion. Wild. Powerful. Destructive. \n And about the fact that passion doesn’t have to be abandoned — \n it can be controlled.",
