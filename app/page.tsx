@@ -45,16 +45,17 @@ export default function HomePage() {
             </h2>
 
             <p className="mb-6 text-lg leading-relaxed">
-              I write psychological drama, but each story lives in a different
+              I write character-driven stories, but each story lives in a different
               world:
             </p>
 
             <ul className="space-y-2 text-lg">
-              <li>— medieval (no magic)</li>
-              <li>— contemporary</li>
+              <li>— historical medieval fantasy</li>
+              <li>— contemporary fiction</li>
               <li>— mythology</li>
-              <li>— gothic (1560–1860)</li>
+              <li>— gothic vampire stories</li>
               <li>— Ukrainian folklore</li>
+              <li>— sea fantasy</li>
             </ul>
 
             <Link
