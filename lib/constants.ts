@@ -407,6 +407,7 @@ export const Books = [
     characters: [
       { name: "MarfaArt", img: "/characters/MarfaART.png" },
       { name: "NestorArt", img: "/characters/NestorART.png" },
+      { name: "MarfaArt2", img: "/characters/MarfaART2.png" },
       { name: "Marfa", img: "/characters/Marfa.png" },
       { name: "Nestor", img: "/characters/Nestor.png" },
     ],
