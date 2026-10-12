@@ -1,4 +1,5 @@
-import { readerCards, storyImages, worlds } from "@/lib/constants";
+import { news, readerCards, storyImages, worlds } from "@/lib/constants";
+import Image from "next/image";
 import Link from "next/link";
 import LinkButton from "./components/LinkButton";
 import StoryCard from "./components/StoryCard";
@@ -7,6 +8,49 @@ import WorldCard from "./components/WorldCard";
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-[#E8EFE0]/60 backdrop-blur-sm text-[#252A27]">
+      <section className="px-6 pb-6 pt-10">
+        <div className="mx-auto max-w-6xl">
+          <h2 className="mb-6 text-center font-serif text-4xl italic">News</h2>
+
+          <div className="grid gap-6 md:grid-cols-2">
+            {news.map((item) => (
+              <Link
+                key={item.id}
+                href={item.link}
+                className="group overflow-hidden rounded-2xl border border-[#1F2622]/10 bg-white/60 shadow-sm transition-transform duration-200 hover:-translate-y-1"
+              >
+                <div className="flex h-full flex-col items-center md:flex-row md:items-stretch">
+                  <div className="relative mt-2 flex h-64 w-full max-w-[260px] items-center justify-center md:mt-4 md:mb-4 md:h-auto md:w-40 md:max-w-none md:rounded-none">
+                    <Image
+                      src={item.imageUrl}
+                      alt={item.title}
+                      fill
+                      className="object-contain"
+                      sizes="(max-width: 768px) 260px, 160px"
+                    />
+                  </div>
+
+                  <div className="mt-4 flex w-full flex-1 flex-col justify-between p-5 text-center md:mt-0 md:text-left">
+                    <div>
+                      <p className="mb-2 text-xs font-medium uppercase tracking-[0.2em] text-[#5E6A65]">
+                        Update
+                      </p>
+                      <h3 className="font-serif text-2xl italic text-[#252A27]">
+                        {item.title}
+                      </h3>
+                    </div>
+
+                    <p className="mt-4 text-base leading-relaxed text-[#3A403D]">
+                      {item.descriprion}
+                    </p>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="relative flex min-h-screen items-center justify-center px-6 text-center">
         <div className="absolute inset-0 bg-cover bg-center" />
         <div className="absolute inset-0 bg-[#1F2622]/55" />
@@ -45,8 +89,8 @@ export default function HomePage() {
             </h2>
 
             <p className="mb-6 text-lg leading-relaxed">
-              I write character-driven stories, but each story lives in a different
-              world:
+              I write character-driven stories, but each story lives in a
+              different world:
             </p>
 
             <ul className="space-y-2 text-lg">
@@ -68,11 +112,7 @@ export default function HomePage() {
 
           <div className="grid grid-cols-2 gap-4">
             {worlds.map((world, index) => (
-              <WorldCard
-                key={world.title}
-                {...world}
-                index={index}
-              />
+              <WorldCard key={world.title} {...world} index={index} />
             ))}
           </div>
         </div>

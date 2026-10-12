@@ -567,3 +567,22 @@ export const storyImages = [
   { id: "liberty", imageUrl: "/moodboards/liberty.jpg" },
   { id: "mirabelle", imageUrl: "/moodboards/mirabelle.jpg" },
 ];
+
+export const news = [
+  {
+    id: "news1",
+    title: "No One’s Is Now Available Wide!",
+    descriprion:
+      "No One’s is now available on Kobo, Kobo Plus, and Apple Books! \n Choose your favorite platform and discover the story.",
+    imageUrl: "/covers/no_ones.jpg",
+    link: "/books/no_ones",
+  },
+  {
+    id: "news2",
+    title: "Mirabelle — Pre-Order Now Open!",
+    descriprion:
+      "Pre-order Mirabelle, my upcoming sea fantasy romance, for just $0.99! \n Set sail on March 30, 2027.",
+    imageUrl: "/covers/mirabelle.jpg",
+    link: "/books/mirabelle",
+  },
+];
