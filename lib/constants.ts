@@ -176,6 +176,7 @@ export const Books = [
     imageUrl: "/covers/new_land.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GX32LFBG",
     appleBooksUrl: "http://books.apple.com/us/book/id6814375799",
+    koboUrl: "https://www.kobo.com/ww/en/ebook/new-land-1",
     blurb:
       "What awaited Rowen in the New Land? \n What did he learn? \n What did he see? \n Who did he meet? \n What did he discover about himself? \n And how did he become a discovery for others? \n This story holds the answers.",
     quotes: [
