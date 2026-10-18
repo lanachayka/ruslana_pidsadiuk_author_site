@@ -199,6 +199,7 @@ export const Books = [
     subtitle: "Standalone novel",
     imageUrl: "/covers/i_see_you.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GHQRW4LK",
+    appleBooksUrl: "http://books.apple.com/us/book/id6814214322",
     blurb:
       "This is a raw, deeply honest story about what comes after loss. \n About love that doesn’t disappear — even when it has nowhere to go. About the choices we make when there is no right answer. \n And about the quiet strength it takes to keep living. \n Told from a first-person perspective, this book follows a woman who has fallen and stood up more than once. \n She has loved and lost, crossed lines, made mistakes — and learned to live with the consequences of her decisions. \n This is a story about grief, fear, and guilt. \n About the moments when staying human means breaking the rules. \n About love — quiet, complicated, imperfect — that does not promise happiness, but gives the strength to move forward. \n This is not a story about easy healing. \n It is a story about choosing life — again and again — even when it hurts.",
     quotes: [
