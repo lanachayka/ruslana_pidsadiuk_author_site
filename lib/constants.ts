@@ -574,6 +574,14 @@ export const storyImages = [
 export const news = [
   {
     id: "news1",
+    title: "Halloween Sale: Before the Eyes of Doubt",
+    descriprion:
+      "From October 25 to 31, Before the Eyes of Doubt is available for just $0.99! \n Dive into a gothic tale of vampires, forbidden love, and impossible choices.",
+    imageUrl: "/covers/before_the_eyes_of_doubt.jpg",
+    link: "/books/before_the_eyes_of_doubt",
+  },
+  {
+    id: "news2",
     title: "Mirabelle — Pre-Order Now Open!",
     descriprion:
       "Pre-order Mirabelle, my upcoming sea fantasy romance, for just $0.99! \n Set sail on March 30, 2027.",
