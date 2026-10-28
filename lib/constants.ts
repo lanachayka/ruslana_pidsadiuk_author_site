@@ -20,7 +20,7 @@ export const SocialMediaLinks = [
   {
     id: "threads",
     name: "Threads",
-    url: "https://www.threads.com/lanachayka",
+    url: "https://www.threads.com/ruslana.pidsadiuk",
     iconSrc: "/social_media/ThreadsIcon.svg",
   },
   {
