@@ -285,6 +285,7 @@ export const Books = [
     firstPage:
       "Who are changelings? You hardly hear that word anymore in polite conversation. Unless it appears in frightening tales told to disobedient children. \n “Keep behaving like that,” she said, “and you will end up among the changelings.” \n “Oh, I should have left you… I truly should have.” \n It does not sound particularly reassuring. But whether it is effective is another question. \n The phenomenon is fading with its time. And perhaps that is for the better. \n Whole generations grew up in baskets left on the thresholds of God’s houses. There were many reasons for such a decision, and each was different. Lack of money, troubled families, an unwanted pregnancy at a young age, the exposure of betrayal, the anger of their elders, the death of parents, unpreparedness for responsibility, fear, disabilities and disease, the hope for a better life. And even the belief that everything is God’s will.",
     characters: [
+      { name: "LunariART", img: "/characters/LunariArt.jpeg" },
       { name: "Lunari", img: "/characters/Lunari.png" },
       { name: "Dominic", img: "/characters/Dominic.png" },
     ],
@@ -318,6 +319,7 @@ export const Books = [
     firstPage:
       "Marauder. Shameless man. Disgrace of the family. \n The one who did not live up to expectations — expectations that were born before him. \n The only son and the greatest disappointment. The one who disgraces the family and brings the line to an end. \n And this list could go on endlessly. \n And yes, all of this is about me. \n What have I done to deserve this? And did I deserve it at all?",
     characters: [
+      { name: "LunariART", img: "/characters/LunariArt.jpeg" },
       { name: "Lunari", img: "/characters/Lunari.png" },
       { name: "Ben", img: "/characters/Ben.png" },
     ],
@@ -350,6 +352,7 @@ export const Books = [
     firstPage:
       "The first deep breath. Barely warm air. The scent of hot sand, fresh water, and dry plants. \n The first glance around. Quick. Evaluating. Uncomprehending. Curious. \n Yellow sands, tall solitary palms, yellowed grass, a small body of water surrounded by reeds. A dark sky strewn with bright stars, and the moon — vast, powerful, full, and unreachable. \n The sounds of crickets and frogs, the barely perceptible rustle of the wind, the hum of the scorched earth. \n And me amid this world. \n Feeling, observing, growing accustomed, trying to understand — and eventually to live within it.",
     characters: [
+      { name: "LunariART", img: "/characters/LunariArt.jpeg" },
       { name: "Lunari", img: "/characters/Lunari.png" },
       { name: "Mirati", img: "/characters/Mirati.png" },
       { name: "Frederick", img: "/characters/Frederick.png" },
@@ -377,6 +380,7 @@ export const Books = [
     firstPage:
       "Peace. Calm. Routine. Strange concepts. When they appear in our lives, it becomes clear at once that they will not remain for long. That change is waiting somewhere beyond your threshold. Waiting, watching, holding you in suspense, never allowing you to fully enjoy the fleeting, simple, and quiet happiness of sameness. \n That is the essence of it. Nothing is eternal except change. And no matter how we prepare for it, no matter how we wait for it — we will always be unprepared.",
     characters: [
+      { name: "LunariART", img: "/characters/LunariArt.jpeg" },
       { name: "Lunari", img: "/characters/Lunari.png" },
       { name: "Ben", img: "/characters/Ben.png" },
       { name: "Dominic", img: "/characters/Dominic.png" },
