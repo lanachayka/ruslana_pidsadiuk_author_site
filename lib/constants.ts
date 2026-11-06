@@ -105,7 +105,8 @@ export const Books = [
     firstPage:
       "In an instant, everything sharpened — the morning forest, the air, her gaze — and the hunting instinct awakened. The bow became a continuation of her body, of her stance; her movements — precise, steady, impossibly swift. Hunting a wild beast, she merged with the forest, guided by instinct, always venturing alone into the depths of the tangled, ancient trees. There, her breath grew barely perceptible, her body — supple as a predator’s, her eyes — piercing. It was not a hunt for a young princess’s amusement — it was a dance of life and death, a dance of beginning and end.",
     characters: [
-      { name: "Heinrich & Reveka", img: "/characters/HeinrichAndReveka.png" },
+      { name: "Heinrich & Reveka 1", img: "/characters/HeinrichAndReveka2.jpeg" },
+      { name: "Heinrich & Reveka 2", img: "/characters/HeinrichAndReveka.png" },
       { name: "RevekaArt", img: "/characters/RevekaArt.JPG" },
       { name: "Reveka", img: "/characters/Reveka.png" },
       { name: "Heinrich", img: "/characters/Henry.png" },
