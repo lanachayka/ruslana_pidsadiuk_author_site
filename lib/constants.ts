@@ -85,6 +85,8 @@ export const Books = [
     seriesUrl: "/series/the_northern_sea_legacy",
     imageUrl: "/covers/queen_of_archers.png",
     amazonUrl: "https://www.amazon.com/dp/B0G34GYJKH",
+    appleBooksUrl: "http://books.apple.com/us/book/id6755674366",
+    koboUrl: "https://www.kobo.com/ww/en/ebook/queen-of-archers",
     blurb:
       "A story about real, mature love — steady, quiet, unbroken — the kind that endures when fate tests you again and again, in a deeply character-driven journey set in a medieval world without magic. \n It is a tale of right and wrong decisions, of the consequences that carve a person into who they become — a subtle, psychological novel about choices, resilience, loss, pain, courage, and the fragile strength of hope. It portrays life as it truly is: turbulent, complex, imperfect, and deeply human — an emotional story about fate and consequence. \n Everything changes. Everything passes — both the good and the painful. \n But love remains. \n Always.",
     quotes: [
@@ -121,6 +123,8 @@ export const Books = [
     seriesUrl: "/series/the_northern_sea_legacy",
     imageUrl: "/covers/the_kings_path.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G5PN5VLJ",
+    appleBooksUrl: "http://books.apple.com/us/book/id6756275905",
+    koboUrl: "https://www.kobo.com/ww/en/ebook/the-king-s-path-1",
     blurb:
       "A story about the lonely, thorn-filled road that shapes a future king — a quiet, psychological prequel set in a medieval world without magic. \n It is a tale of the weight of family, of imperfect bonds and unspoken wounds, of choices that carry a price and of a destiny formed long before one dares to claim it. A novel about solitude, resilience, responsibility, and the fragile strength it takes to keep moving forward when the world demands more than you have to give. \n It portrays growing up as it truly is: uneven, painful, uncertain, yet profoundly human — an emotional story about the cost of becoming oneself. \n Everything tests you. Everything leaves its mark — both the kind and the cruel. \n But the road remains. \n And one must walk it.",
     quotes: [
@@ -149,6 +153,8 @@ export const Books = [
     seriesUrl: "/series/the_northern_sea_legacy",
     imageUrl: "/covers/legacy_of_the_northern_sea.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GDQBVHG8",
+    appleBooksUrl: "http://books.apple.com/us/book/id6757261546",
+    koboUrl: "https://www.kobo.com/ww/en/ebook/legacy-of-the-northern-sea",
     blurb:
       "A story about the search for oneself — for a place, a voice, and a path of one’s own — a quiet, psychological continuation set in a medieval world without magic. \n It is a tale of inner struggle, of demons that dwell within and prove more frightening than any external threat; of power and duty, and the weight they place upon the soul — a novel about responsibility, loss of self, and the fragile courage it takes to remain whole beneath expectations that were never chosen. \n It speaks of changing generations and newly forged alliances, of children who inherit not only crowns and titles, but the consequences of choices made long before them. It portrays growth and self-discovery as they truly are: uncertain, painful, and deeply human — an emotional story about legacy, identity, and the cost of becoming oneself. \n The past remains. The past shapes — and wounds. \n It walks beside them, carried in memory and blood. \n And they must learn to let it go.",
     quotes: [
@@ -224,6 +230,8 @@ export const Books = [
     subtitle: "A myth of gods and humans",
     imageUrl: "/covers/the_most_precious_gift.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GP16P69F",
+    appleBooksUrl: "http://books.apple.com/us/book/id6835092590",
+    koboUrl: "https://www.kobo.com/ww/en/ebook/the-most-precious-gift-3",
     blurb:
       "This is a story about a world where gods live beside humans — not always visible, but always present. \n When the boundaries between heaven and earth are crossed, everyone feels the consequences. \n Old wounds do not simply disappear. Jealousy does not burn without leaving a trace. Love does not pass without change. \n This is not a story about the battle between good and evil. Nor about heroes and villains. \n It is a story about choice. About responsibility for one’s feelings. About the truth that even gods are not immune to mistakes. \n And about love — a gift that can create and destroy at the same time. \n A quiet mythological drama about the fragile balance between light and darkness.",
     quotes: [
@@ -332,6 +340,8 @@ export const Books = [
     seriesUrl: "/series/before_the_eyes",
     imageUrl: "/covers/before_the_eyes_of_eternity.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H26RCQGK",
+    appleBooksUrl: "http://books.apple.com/us/book/id6835082933",
+    koboUrl: "https://www.kobo.com/ww/en/ebook/before-the-eyes-of-eternity",
     blurb:
       "This is a story about eternity. \n About the long and winding road that walks beside it. \n About the choices we make, and the moments that leave their marks on us forever. \n About love, loss, power, freedom, and the quiet weight of memory. \n About learning to accept both yourself and the people who change your life. \n It follows a woman who lived through centuries, crossed entire eras beside others, and still managed to remain herself. \n A story about the fear of eternity. \n And about the quiet realization that came after all the pain, all the years, and all the goodbyes — that even before the eyes of eternity, everything is still in our hands.",
     quotes: [
