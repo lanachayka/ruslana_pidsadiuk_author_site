@@ -107,12 +107,15 @@ export const Books = [
     firstPage:
       "In an instant, everything sharpened — the morning forest, the air, her gaze — and the hunting instinct awakened. The bow became a continuation of her body, of her stance; her movements — precise, steady, impossibly swift. Hunting a wild beast, she merged with the forest, guided by instinct, always venturing alone into the depths of the tangled, ancient trees. There, her breath grew barely perceptible, her body — supple as a predator’s, her eyes — piercing. It was not a hunt for a young princess’s amusement — it was a dance of life and death, a dance of beginning and end.",
     characters: [
-      { name: "Heinrich & Reveka 1", img: "/characters/HeinrichAndReveka2.jpeg" },
+      {
+        name: "Heinrich & Reveka 1",
+        img: "/characters/HeinrichAndReveka2.jpeg",
+      },
       { name: "Heinrich & Reveka 2", img: "/characters/HeinrichAndReveka.png" },
       { name: "RevekaArt", img: "/characters/RevekaArt.JPG" },
-      { name: "Reveka", img: "/characters/Reveka.png" },
-      { name: "Heinrich", img: "/characters/Henry.png" },
-      { name: "Rosamund", img: "/characters/Rosamund.png" },
+      // { name: "Reveka", img: "/characters/Reveka.png" },
+      // { name: "Heinrich", img: "/characters/Henry.png" },
+      // { name: "Rosamund", img: "/characters/Rosamund.png" },
     ],
     kingdoms: Kingdoms,
   },
@@ -426,8 +429,10 @@ export const Books = [
       { name: "MarfaArt", img: "/characters/MarfaART.png" },
       { name: "NestorArt", img: "/characters/NestorART.png" },
       { name: "MarfaArt2", img: "/characters/MarfaART2.png" },
-      { name: "Marfa", img: "/characters/Marfa.png" },
-      { name: "Nestor", img: "/characters/Nestor.png" },
+      { name: "MarfaArt3", img: "/characters/MarfaArt3.JPG" },
+      { name: "NestorArt3", img: "/characters/NestorArt3.JPG" },
+      // { name: "Marfa", img: "/characters/Marfa.png" },
+      // { name: "Nestor", img: "/characters/Nestor.png" },
     ],
   },
   {
@@ -480,8 +485,10 @@ export const Books = [
       "There is an ancient sea legend about two souls bound together forever. The sea guides them, calls to them, brings them together — and only the sea can tear them apart. It becomes both their salvation and their trial. Their first and last song. The end of one life and the beginning of another… \n “Will they fall in love? Will they be together?” \n “Only the sea knows, my dear.” \n“But in all the fairy tales…” \n “This is no fairy tale. It’s late. Sleep, my dear. Sleep, my Mirabelle.”",
     characters: [
       { name: "Mirabelle&BromArt", img: "/characters/Mirabelle&BromArt.png" },
-      { name: "Mirabelle", img: "/characters/Mirabelle.png" },
-      { name: "Brom", img: "/characters/Brom.png" },
+      { name: "MirabelleArt", img: "/characters/MirabelleArt.png" },
+      { name: "BromArt", img: "/characters/BromArt.png" },
+      // { name: "Mirabelle", img: "/characters/Mirabelle.png" },
+      // { name: "Brom", img: "/characters/Brom.png" },
     ],
   },
 ];
