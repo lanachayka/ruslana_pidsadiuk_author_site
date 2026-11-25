@@ -484,6 +484,7 @@ export const Books = [
     firstPage:
       "There is an ancient sea legend about two souls bound together forever. The sea guides them, calls to them, brings them together — and only the sea can tear them apart. It becomes both their salvation and their trial. Their first and last song. The end of one life and the beginning of another… \n “Will they fall in love? Will they be together?” \n “Only the sea knows, my dear.” \n“But in all the fairy tales…” \n “This is no fairy tale. It’s late. Sleep, my dear. Sleep, my Mirabelle.”",
     characters: [
+      { name: "MirabelleArt2", img: "/characters/Mirabelle2.png" },
       { name: "Mirabelle&BromArt", img: "/characters/Mirabelle&BromArt.png" },
       { name: "MirabelleArt", img: "/characters/MirabelleArt.png" },
       { name: "BromArt", img: "/characters/BromArt.png" },
